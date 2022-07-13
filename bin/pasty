@@ -147,17 +147,17 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
     # Write outputs
     if outdir != "./":
         Path(outdir).mkdir(parents=True, exist_ok=True)
-
+    outfile = f"{outdir}/{prefix}".replace("//", "/")
     print(f"Writing outputs", file=sys.stderr)
-    print(f"BLASTN results written to {outdir}/{prefix}.blastn.tsv", file=sys.stderr)
-    with open(f"{outdir}/{prefix}.blastn.tsv", 'wt') as fh_out:
+    print(f"BLASTN results written to {outfile}.blastn.tsv", file=sys.stderr)
+    with open(f"{outfile}.blastn.tsv", 'wt') as fh_out:
         fh_out.write("\t".join(BLASTN_COLS) + "\n")
         for result in blastn_stdout:
             fh_out.write(f"{result}\n")
     
     # Serogroup Results
-    print(f"\nSerogroup results written to {outdir}/{prefix}.details.tsv", file=sys.stderr)
-    with open(f"{outdir}/{prefix}.details.tsv", 'wt') as fh_out:
+    print(f"\nSerogroup results written to {outfile}.details.tsv", file=sys.stderr)
+    with open(f"{outfile}.details.tsv", 'wt') as fh_out:
         print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
         fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
         for serogroup in SEROGROUPS:
@@ -166,8 +166,8 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
             fh_out.write(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['hits']}\n")
 
     # Predicted Serogroup
-    print(f"\nPredicted serogroup results written to {outdir}/{prefix}.tsv", file=sys.stderr)
-    with open(f"{outdir}/{prefix}.tsv", 'wt') as fh_out:
+    print(f"\nPredicted serogroup results written to {outfile}.tsv", file=sys.stderr)
+    with open(f"{outfile}.tsv", 'wt') as fh_out:
         print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
         print(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}", file=sys.stderr)
         fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
