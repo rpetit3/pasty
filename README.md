@@ -36,15 +36,15 @@ mamba activate pasty-dev
 
  A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates
 
-╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│    --version                  Show the version and exit.                                                               │
-│ *  --assembly        TEXT     Input assembly in FASTA format (gzip is OK) [required]                                   │
-│    --db              TEXT     Input database in uncompressed FASTA format [default: pasty/db/OSAdb.fasta]              │
-│    --prefix          TEXT     Prefix to use for output files [default: basename of input]                              │
-│    --min_pident      INTEGER  Minimum percent identity to count a hit [default: 95]                                    │
-│    --min_coverage    INTEGER  Minimum percent coverage to count a hit [default: 95]                                    │
-│    --help                     Show this message and exit.                                                              │
-╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────╮
+│    --version                  Show the version and exit.                                            │
+│ *  --assembly        TEXT     Input assembly in FASTA format (gzip is OK) [required]                │
+│    --db              TEXT     Input database in uncompressed FASTA format [default: db/OSAdb.fasta] │
+│    --prefix          TEXT     Prefix to use for output files [default: basename of input]           │
+│    --min_pident      INTEGER  Minimum percent identity to count a hit [default: 95]                 │
+│    --min_coverage    INTEGER  Minimum percent coverage to count a hit [default: 95]                 │
+│    --help                     Show this message and exit.                                           │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 ### --assembly
