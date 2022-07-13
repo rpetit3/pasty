@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""
-Thrane, S. W., Taylor, V. L., Lund, O., Lam, J. S., & Jelsbak, L. (2016).
-Application of Whole-Genome Sequencing Data for O-Specific Antigen Analysis and In Silico 
-Serotyping of Pseudomonas aeruginosa Isolates. Journal of Clinical Microbiology, 54(7), 1782–1788. 
-https://doi.org/10.1128/JCM.00349-16
-"""
 import sys
 from pathlib import Path
 import rich_click as click
