@@ -61,9 +61,10 @@ def run_blastn(query: str, db: str, min_pident: float) -> dict:
     from executor import ExternalCommand, ExternalCommandFailed
 
     outfmt = ' '.join(BLASTN_COLS)
+    cat_type = 'zcat' if query.endswith('.gz') else 'cat'
     try:
         command = ExternalCommand(
-            f"blastn -query {query} -subject {db} -outfmt '6 {outfmt}'",
+            f"{cat_type} {query} | blastn -query - -subject {db} -outfmt '6 {outfmt}'",
             capture=True, 
             capture_stderr=True
         )
@@ -147,7 +148,7 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
 
 @click.command()
 @click.version_option(VERSION)
-@click.option('--assembly', required=True, help='Input assembly in uncompressed FASTA format')
+@click.option('--assembly', required=True, help='Input assembly in FASTA format (gzip is OK)')
 @click.option('--db', default=DB_FASTA, show_default=True, help='Input database in uncompressed FASTA format')
 @click.option('--prefix', default="basename of input", show_default=True, help='Prefix to use for output files')
 @click.option('--min_pident', default=95, show_default=True, help='Minimum percent identity to count a hit')
