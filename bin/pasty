@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 import sys
 from pathlib import Path
+from rich import print
+from rich.console import Console
+from rich.table import Table
 import rich_click as click
 
 DB_FASTA = str(Path( __file__ ).parent.absolute()).replace("bin", "db/OSAdb.fasta")
@@ -87,7 +90,7 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
     # Check is WzyB is present
     serogroups = {}
     for serogroup in SEROGROUPS:
-        serogroups[serogroup] = {'cov': 0, 'hits': 0}
+        serogroups[serogroup] = {'cov': 0, 'fragments': 0}
 
     wzyb = False
     if 'WzyB' in hits:
@@ -104,7 +107,7 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
 
         # Check if antigen is present
         cov = 100 - (100 * (int(hit['slen']) - int(hit['length'])) / float(hit['slen']))
-        serogroups[antigen] = {'cov': f"{cov:.2f}", 'hits': len(hit['hits'])}
+        serogroups[antigen] = {'cov': f"{cov:.2f}", 'fragments': len(hit['hits'])}
         if cov >= min_coverage:
             if cov > highest_coverage:
                 highest_coverage = cov
@@ -140,7 +143,8 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
     db = check_file_exists(db)
     prefix = str(Path(assembly).stem) if prefix == "basename of input" else prefix
 
-    print("Running BLASTN", file=sys.stderr)
+    console = Console()
+    print("[italic]Running BLASTN...[/italic]")
     blastn_parsed, blastn_stdout, blastn_stderr = run_blastn(assembly, db, min_pident)
     serogroups, predicted_serogroup = predict_serogroup(blastn_parsed, min_coverage)
 
@@ -148,31 +152,39 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
     if outdir != "./":
         Path(outdir).mkdir(parents=True, exist_ok=True)
     outfile = f"{outdir}/{prefix}".replace("//", "/")
-    print(f"Writing outputs", file=sys.stderr)
-    print(f"BLASTN results written to {outfile}.blastn.tsv", file=sys.stderr)
+    print("[italic]Writing outputs...[/italic]")
+    print(f"[italic]BLASTN results written to [deep_sky_blue1]{outfile}.blastn.tsv[/deep_sky_blue1][/italic]\n")
     with open(f"{outfile}.blastn.tsv", 'wt') as fh_out:
         fh_out.write("\t".join(BLASTN_COLS) + "\n")
         for result in blastn_stdout:
             fh_out.write(f"{result}\n")
     
     # Serogroup Results
-    print(f"\nSerogroup results written to {outfile}.details.tsv", file=sys.stderr)
+    serogroup_table = Table(title=f"Serogroup Results")
+    serogroup_table.add_column("sample", style="white")
+    serogroup_table.add_column("serogroup", style="cyan")
+    serogroup_table.add_column("coverage", style="green")
+    serogroup_table.add_column("fragments", style="green")
     with open(f"{outfile}.details.tsv", 'wt') as fh_out:
-        print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
         fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
         for serogroup in SEROGROUPS:
             detail = serogroups[serogroup]
-            print(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['hits']}", file=sys.stderr)
-            fh_out.write(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['hits']}\n")
+            serogroup_table.add_row(prefix, serogroup, str(detail['cov']), str(detail['fragments']))
+            fh_out.write(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['fragments']}\n")
+    console.print(serogroup_table)
+    print(f"[italic]Serogroup Results written to [deep_sky_blue1]{outfile}.details.tsv[/deep_sky_blue1][/italic]\n")
 
     # Predicted Serogroup
-    print(f"\nPredicted serogroup results written to {outfile}.tsv", file=sys.stderr)
+    prediction_table = Table(title=f"Predicted Serogroup")
+    prediction_table.add_column("sample", style="white")
+    prediction_table.add_column("serogroup", style="cyan")
+    prediction_table.add_column("coverage", style="green")
+    prediction_table.add_column("fragments", style="green")
     with open(f"{outfile}.tsv", 'wt') as fh_out:
-        print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
-        print(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}", file=sys.stderr)
+        prediction_table.add_row(prefix, predicted_serogroup['serogroup'], str(predicted_serogroup['cov']), str(predicted_serogroup['fragments']))
         fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
         fh_out.write(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}\n")
-
-
+    console.print(prediction_table)  
+    print(f"[italic]Predicted serogroup result written to [deep_sky_blue1]{outfile}.tsv[/deep_sky_blue1][/italic]\n")
 if __name__ == '__main__':
     pasty()
