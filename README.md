@@ -28,8 +28,8 @@ the required dependencies can be installed like so:
 mamba create -n pasty-dev -c conda-forge -c bioconda rich-click executor 'python>=3.7' blast
 mamba activate pasty-dev
 git@github.com:rpetit3/pasty.git
-cd patsy
-bin/patsy --help
+cd pasty
+bin/pasty --help
 ```
 
 ## Usage
@@ -142,7 +142,7 @@ GCF_003000695       WzyB    0.00    0
 ## Naming
 
 The original implementation was called _PAst_, and given this is a Python version I originally
-went with _PAst-py_. But decided, _"nah, let's go with pasty"_. Hopefully `patsy` will be 
+went with _PAst-py_. But decided, _"nah, let's go with pasty"_. Hopefully `pasty` will be
 your patsy when it comes to serogrouping your _P. aeruginosa_ isolates.
 
 ### License Choice
