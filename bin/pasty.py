@@ -15,21 +15,7 @@ BLASTN_COLS = [
     "qseqid", "sseqid", "pident", "qlen", "slen", "length", "nident", "mismatch", "gapopen",
     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qseq", "sseq"
 ]
-
-SEROGROUP = {
-    "O1": ["O1"],
-    "O2": ["O2","O16","wzyb"],
-    "O3": ["O3","O15"],
-    "O4": ["O4"],
-    "O5": ["O5","O18","O20"], # O2 - wyzb
-    "O6": ["O6"],
-    "O7": ["O7","O8"],
-    "O9": ["O9"],
-    "O10": ["O10","O19"],
-    "O11": ["O11","O17"],
-    "O12": ["O12"],
-    "O13": ["O13","O14"]
-}
+SEROGROUPS = ["O1","O2", "O3", "O4", "O5", "O6", "O7", "O9", "O10", "O11", "O12", "O13", "WyzB"]
 
 def check_file_exists(filename: str) -> str:
     """
@@ -105,7 +91,10 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
     """
 
     # Check is WzyB is present
-    serogroups = {'WzyB': {'cov': 0, 'hits': 0}}
+    serogroups = {}
+    for serogroup in SEROGROUPS:
+        serogroups[serogroup] = {'cov': 0, 'hits': 0}
+
     wzyb = False
     if 'WzyB' in hits:
         wyzb_cov = 100 - (100 * (int(hits['WzyB']['slen']) - int(hits['WzyB']['length'])) / float(hits['WzyB']['slen']))
@@ -143,9 +132,6 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
     return [serogroups, predicted_serogroup]
 
 
-
-
-
 @click.command()
 @click.version_option(VERSION)
 @click.option('--assembly', required=True, help='Input assembly in FASTA format (gzip is OK)')
@@ -174,11 +160,12 @@ def pasty(assembly, db, prefix, min_pident, min_coverage):
     # Serogroup Results
     print(f"\nSerogroup results written to {prefix}.details.tsv", file=sys.stderr)
     with open(f"{prefix}.details.tsv", 'wt') as fh_out:
-        print(f"serogroup\tcoverage\tfragments", file=sys.stderr)
-        fh_out.write("serogroup\tcoverage\tfragments\n")
-        for serogroup, detail in serogroups.items():
-            print(f"{serogroup}\t{detail['cov']}\t{detail['hits']}", file=sys.stderr)
-            fh_out.write(f"{serogroup}\t{detail['cov']}\t{detail['hits']}\n")
+        print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
+        fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
+        for serogroup in SEROGROUPS:
+            detail = serogroups[serogroup]
+            print(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['hits']}", file=sys.stderr)
+            fh_out.write(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['hits']}\n")
 
     # Predicted Serogroup
     print(f"\nPredicted serogroup results written to {prefix}.tsv", file=sys.stderr)
