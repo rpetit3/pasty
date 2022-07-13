@@ -34,7 +34,7 @@ jobs:
 
       - name: Test pasty basics
         run: |
-          echo "Testing dragonflye"
+          echo "Testing patsy"
           bin/pasty --version
           bin/pasty --help
 
