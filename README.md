@@ -5,10 +5,10 @@ A tool easily taken advantage of for in silico serogrouping of _Pseudomonas aeru
 
 _Pseudomonas aeruginosa_ serotyper (PAst) is available as a web-service from
 [CGE - PAst](https://cge.cbs.dtu.dk/services/PAst-1.0/). The web-service
-works great, but is not the most efficient for 100s of genomes. So I looked into
-original implementation available available at [PAst](https://github.com/Sandramses/PAst).
+works great, but is not the most efficient for 100s of genomes. I also looked into the
+original implementation available at [PAst](https://github.com/Sandramses/PAst).
 I tried my best to start tweaking it to meet my needs, but unfortunately my Perl skills
-have dulled over the years! So, I decided to rewrite this Python.
+have dulled over the years! And it ended up being easier and quicker to just rewrite it in Python.
 
 ## Introduction
 
@@ -32,7 +32,7 @@ mamba activate pasty-dev
 ## Usage
 
 ```{bash}
- Usage: pasty.py [OPTIONS]
+ Usage: pasty [OPTIONS]
 
  A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates
 
@@ -68,8 +68,8 @@ against the `pident` column of the blast output.
 
 ### --min_coverage
 
-The minimum coverage of a O-antigen to be considered for serogrouping. This looks at the total
-amount of the O-antigen that was aligned to. This calculation does include mismatches and gaps,
+The minimum coverage of a O-antigen to be considered for serogrouping. This looks at the percent
+of the O-antigen that was aligned to. This calculation does include mismatches and gaps,
 but those should be expected to be minimal if `--min_pident` is set to the default (95%) or
 similar.
 
@@ -139,8 +139,7 @@ your patsy when it comes to serogrouping your _P. aeruginosa_ isolates.
 
 ### License Choice
 
-Given this is a rewrite of PAst (which does not include a license), I selected to Apache 2.0
-as the license to match other CGE tools.
+The original PAst did not include a license, so I selected Apache 2.0 as the license to match other CGE tools.
 
 ## Citation
 
