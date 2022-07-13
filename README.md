@@ -34,7 +34,7 @@ mamba activate pasty-dev
 ```{bash}
  Usage: pasty.py [OPTIONS]
 
- In-silico serogrouping of Pseudomonas aeruginosa isolates
+ A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates
 
 ╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
 │    --version                  Show the version and exit.                                                               │

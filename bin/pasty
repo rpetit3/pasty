@@ -140,7 +140,7 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
 @click.option('--min_pident', default=95, show_default=True, help='Minimum percent identity to count a hit')
 @click.option('--min_coverage', default=95, show_default=True, help='Minimum percent coverage to count a hit')
 def pasty(assembly, db, prefix, min_pident, min_coverage):
-    """In-silico serotyping of Pseudomonas aeruginosa isolates"""
+    """A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates"""
     assembly = check_file_exists(assembly)
     db = check_file_exists(db)
     prefix = str(Path(assembly).stem) if prefix == "basename of input" else prefix
