@@ -1,5 +1,5 @@
 # pasty
-In silico serogroup of Pseudomonas aeruginosa isolates written in Python.
+A tool easily taken advantage of for in silico serogrouping of _Pseudomonas aeruginosa_ isolates
 
 ## A Quick Note
 
@@ -134,7 +134,8 @@ GCF_003000695       WzyB    0.00    0
 ## Naming
 
 The original implementation was called _PAst_, and given this is a Python version I originally
-went with _PAst-py_. But decided, _"nah, let's go with pasty"_. 
+went with _PAst-py_. But decided, _"nah, let's go with pasty"_. Hopefully `patsy` will be 
+your patsy when it comes to serogrouping your _P. aeruginosa_ isolates.
 
 ### License Choice
 
@@ -149,7 +150,7 @@ If you use this tool please cite the following:
 _Thrane SW, Taylor VL, Lund O, Lam JS, Jelsbak L [Application of Whole-Genome Sequencing Data for O-Specific Antigen Analysis and In Silico Serotyping of Pseudomonas aeruginosa Isolates.](https://doi.org/10.1128/JCM.00349-16) Journal of Clinical Microbiology, 54(7), 1782–1788. (2016)_  
 
 **pasty**  
-_Petit III RA [pasty: In-silico serogrouping of Pseudomonas aeruginosa isolates written in Python](https://github.com/rpetit3/pasty) (GitHub)_  
+_Petit III RA [pasty: A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates](https://github.com/rpetit3/pasty) (GitHub)_  
 
 **BLAST+**  
 _Camacho C, Coulouris G, Avagyan V, Ma N, Papadopoulos J, Bealer K, Madden TL [BLAST+: architecture and applications.](http://dx.doi.org/10.1186/1471-2105-10-421) BMC Bioinformatics 10, 421 (2009)_  
