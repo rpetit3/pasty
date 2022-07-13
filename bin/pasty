@@ -186,5 +186,7 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
         fh_out.write(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}\n")
     console.print(prediction_table)  
     print(f"[italic]Predicted serogroup result written to [deep_sky_blue1]{outfile}.tsv[/deep_sky_blue1][/italic]\n")
+
+
 if __name__ == '__main__':
     pasty()
