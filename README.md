@@ -101,7 +101,7 @@ GCF_003000695       O2      100.00  1
 ### Example `{PREFIX}.blastn.tsv`
 
 The blast results include sequences which won't display very nicely here. But, don't fret,
-is just standard `-outfmt 6`, so tab-delimited and easy to parse.
+it is the standard `-outfmt 6`, so tab-delimited and easy to parse.
 
 ### Example `{PREFIX}.details.tsv`
 
