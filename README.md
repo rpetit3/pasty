@@ -12,11 +12,11 @@ have dulled over the years! So, I decided to rewrite this Python.
 
 ## Introduction
 
-`pasty` is a tool to identify the Serogroup of _Pseudomonas aeruginosa_ isolates. Using an
-input assembly (uncompressed or gzip-compressed) and blasts it against a set of O-antigens.
+`pasty` is a tool to identify the serogroup of _Pseudomonas aeruginosa_ isolates. Using an
+input assembly (uncompressed or gzip-compressed), the sequences are blasted against a set of O-antigens.
 The serogroup is then predicted based on these results. 
 
-The the serogroup is based on [Table 1](https://journals.asm.org/doi/10.1128/JCM.00349-16#T1)
+The serogroup logic is based on [Table 1](https://journals.asm.org/doi/10.1128/JCM.00349-16#T1)
 of the original PAst publication (citation below).
 
 ## Installation
@@ -26,6 +26,7 @@ the required dependencies can be installed like so:
 
 ```{bash}
 mamba create -n pasty-dev -c conda-forge -c bioconda rich-click executor 'python>=3.7' blast
+mamba activate pasty-dev
 ```
 
 ## Usage
@@ -35,30 +36,29 @@ mamba create -n pasty-dev -c conda-forge -c bioconda rich-click executor 'python
 
  In-silico serogrouping of Pseudomonas aeruginosa isolates
 
-╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│    --version                  Show the version and exit.                                                                                                                                       │
-│ *  --assembly        TEXT     Input assembly in FASTA format (gzip is OK) [required]                                                                                                           │
-│    --db              TEXT     Input database in uncompressed FASTA format [default: /home/robert_petit/repos/pasty/db/OSAdb.fasta]                                                             │
-│    --prefix          TEXT     Prefix to use for output files [default: basename of input]                                                                                                      │
-│    --min_pident      INTEGER  Minimum percent identity to count a hit [default: 95]                                                                                                            │
-│    --min_coverage    INTEGER  Minimum percent coverage to count a hit [default: 95]                                                                                                            │
-│    --help                     Show this message and exit.                                                                                                                                      │
-╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│    --version                  Show the version and exit.                                                               │
+│ *  --assembly        TEXT     Input assembly in FASTA format (gzip is OK) [required]                                   │
+│    --db              TEXT     Input database in uncompressed FASTA format [default: pasty/db/OSAdb.fasta]              │
+│    --prefix          TEXT     Prefix to use for output files [default: basename of input]                              │
+│    --min_pident      INTEGER  Minimum percent identity to count a hit [default: 95]                                    │
+│    --min_coverage    INTEGER  Minimum percent coverage to count a hit [default: 95]                                    │
+│    --help                     Show this message and exit.                                                              │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 ### --assembly
 
-Your input assembly the you would like to predict the serogroup on. The assembly can be either
-compressed using gzip or uncompressed.
+An assembly in FASTA format (compressed with gzip, or uncompressed) to predict the serogroup on.
 
 ### --db
 
-The FASTA file with nucleotide sequences of each O-antigen and _WyzB_. In most cases using the
-default value will be all you will need.
+A FASTA file with nucleotide sequences of each O-antigen and _WyzB_. In most cases using the
+default value will be all that is needed.
 
 ### --prefix
 
-The prefix you would like to use for the output files. If a prefix is not given, the basename
+The prefix to use for the output files. If a prefix is not given, the basename
 of the input assembly will be used.
 
 ### --min_pident
@@ -108,24 +108,25 @@ is just standard `-outfmt 6`, so tab-delimited and easy to parse.
 This file provides the the coverage and number of fragments for each of the serogroups. This
 can be useful for a deeper review, and it should look like the following:
 
-```
-serogroup       coverage        fragments
-WzyB    0.00    0
-O2      100.00  1
-O3      1.43    1
-O7      11.82   2
-O1      12.52   2
-O10     12.97   2
-O9      11.42   1
-O13     16.22   2
-O6      14.78   2
-O11     15.87   2
-O4      13.86   2
-O12     0.00    0
+```{bash}
+sample  serogroup       coverage        fragments
+GCF_003000695       O1      12.52   2
+GCF_003000695       O2      100.00  1
+GCF_003000695       O3      1.43    1
+GCF_003000695       O4      13.86   2
+GCF_003000695       O6      14.78   2
+GCF_003000695       O7      11.82   2
+GCF_003000695       O9      11.42   1
+GCF_003000695       O10     12.97   2
+GCF_003000695       O11     15.87   2
+GCF_003000695       O12     0.00    0
+GCF_003000695       O13     16.22   2
+GCF_003000695       WzyB    0.00    0
 ```
 
 | Column Name | Description                                                              |
 |-------------|--------------------------------------------------------------------------|
+| sample      | Name of the sample processed                                             |
 | serogroup   | The predicted serogroup                                                  |
 | coverage    | The percent of the O-antigen that was aligned to                         |
 | fragments   | The number of blast hits included in the prediction (_fewer the better_) |
