@@ -27,6 +27,9 @@ the required dependencies can be installed like so:
 ```{bash}
 mamba create -n pasty-dev -c conda-forge -c bioconda rich-click executor 'python>=3.7' blast
 mamba activate pasty-dev
+git@github.com:rpetit3/pasty.git
+cd patsy
+bin/patsy --help
 ```
 
 ## Usage
