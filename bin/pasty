@@ -131,9 +131,10 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
 @click.option('--assembly', required=True, help='Input assembly in FASTA format (gzip is OK)')
 @click.option('--db', default=DB_FASTA, show_default=True, help='Input database in uncompressed FASTA format')
 @click.option('--prefix', default="basename of input", show_default=True, help='Prefix to use for output files')
+@click.option('--outdir', default="./", show_default=True, help='Directory to save output files')
 @click.option('--min_pident', default=95, show_default=True, help='Minimum percent identity to count a hit')
 @click.option('--min_coverage', default=95, show_default=True, help='Minimum percent coverage to count a hit')
-def pasty(assembly, db, prefix, min_pident, min_coverage):
+def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
     """A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates"""
     assembly = check_file_exists(assembly)
     db = check_file_exists(db)
@@ -144,16 +145,19 @@ def pasty(assembly, db, prefix, min_pident, min_coverage):
     serogroups, predicted_serogroup = predict_serogroup(blastn_parsed, min_coverage)
 
     # Write outputs
+    if outdir != "./":
+        Path(outdir).mkdir(parents=True, exist_ok=True)
+
     print(f"Writing outputs", file=sys.stderr)
-    print(f"BLASTN results written to {prefix}.blastn.tsv", file=sys.stderr)
-    with open(f"{prefix}.blastn.tsv", 'wt') as fh_out:
+    print(f"BLASTN results written to {outdir}/{prefix}.blastn.tsv", file=sys.stderr)
+    with open(f"{outdir}/{prefix}.blastn.tsv", 'wt') as fh_out:
         fh_out.write("\t".join(BLASTN_COLS) + "\n")
         for result in blastn_stdout:
             fh_out.write(f"{result}\n")
     
     # Serogroup Results
-    print(f"\nSerogroup results written to {prefix}.details.tsv", file=sys.stderr)
-    with open(f"{prefix}.details.tsv", 'wt') as fh_out:
+    print(f"\nSerogroup results written to {outdir}/{prefix}.details.tsv", file=sys.stderr)
+    with open(f"{outdir}/{prefix}.details.tsv", 'wt') as fh_out:
         print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
         fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
         for serogroup in SEROGROUPS:
@@ -162,8 +166,8 @@ def pasty(assembly, db, prefix, min_pident, min_coverage):
             fh_out.write(f"{prefix}\t{serogroup}\t{detail['cov']}\t{detail['hits']}\n")
 
     # Predicted Serogroup
-    print(f"\nPredicted serogroup results written to {prefix}.tsv", file=sys.stderr)
-    with open(f"{prefix}.tsv", 'wt') as fh_out:
+    print(f"\nPredicted serogroup results written to {outdir}/{prefix}.tsv", file=sys.stderr)
+    with open(f"{outdir}/{prefix}.tsv", 'wt') as fh_out:
         print(f"sample\tserogroup\tcoverage\tfragments", file=sys.stderr)
         print(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}", file=sys.stderr)
         fh_out.write("sample\tserogroup\tcoverage\tfragments\n")

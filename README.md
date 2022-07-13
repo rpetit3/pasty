@@ -44,6 +44,7 @@ bin/patsy --help
 │ *  --assembly        TEXT     Input assembly in FASTA format (gzip is OK) [required]                │
 │    --db              TEXT     Input database in uncompressed FASTA format [default: db/OSAdb.fasta] │
 │    --prefix          TEXT     Prefix to use for output files [default: basename of input]           │
+│    --outdir          TEXT     Directory to save output files [default: ./]                          |
 │    --min_pident      INTEGER  Minimum percent identity to count a hit [default: 95]                 │
 │    --min_coverage    INTEGER  Minimum percent coverage to count a hit [default: 95]                 │
 │    --help                     Show this message and exit.                                           │
@@ -63,6 +64,10 @@ default value will be all that is needed.
 
 The prefix to use for the output files. If a prefix is not given, the basename
 of the input assembly will be used.
+
+### --outdir
+
+The directory to save result files. If the directory does not exist is will be created.
 
 ### --min_pident
 

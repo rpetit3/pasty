@@ -45,9 +45,9 @@ jobs:
           cat O1-GCA_000705235.tsv
           cat O1-GCA_000705235.details.tsv
           echo "O2-GCF_000006765"
-          bin/pasty --assembly test/O2-GCF_000006765.fna.gz --prefix O2-GCF_000006765
-          cat O2-GCF_000006765.tsv
-          cat O2-GCF_000006765.details.tsv
+          bin/pasty --assembly test/O2-GCF_000006765.fna.gz --prefix O2-GCF_000006765 --outdir O2
+          cat O2/O2-GCF_000006765.tsv
+          cat O2/O2-GCF_000006765.details.tsv
           echo "O6-GCF_000817165"
           bin/pasty --assembly test/O6-GCF_000817165.fna.gz --prefix O6-GCF_000817165
           cat O6-GCF_000817165.tsv
@@ -69,6 +69,6 @@ jobs:
           cat not-a-fasta.tsv
           cat not-a-fasta.details.tsv
           echo "poor"
-          bin/pasty --assembly test/poor.fasta --prefix poor
-          cat poor.tsv
-          cat poor.details.tsv
+          bin/pasty --assembly test/poor.fasta --prefix poor --outdir poor
+          cat poor/poor.tsv
+          cat poor/poor.details.tsv
