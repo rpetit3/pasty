@@ -40,18 +40,26 @@ jobs:
 
       - name: Test patsy
         run: |
-          echo "GCF_000006765"
-          bin/pasty --assembly test/GCF_000006765.fna --prefix GCF_000006765 --db db/OSAdb.fasta
-          cat GCF_000006765.tsv
-          cat GCF_000006765.details.tsv
-          echo "GCF_000292685"
-          bin/pasty --assembly test/GCF_000292685.fna.gz --prefix GCF_000292685
-          cat GCF_000292685.tsv
-          cat GCF_000292685.details.tsv
-          echo "GCF_000006765"
-          bin/pasty --assembly test/GCF_003000695.fna.gz --prefix GCF_003000695 --db db/OSAdb.fasta
-          cat GCF_003000695.tsv
-          cat GCF_003000695.details.tsv
+          echo "O1-GCA_000705235"
+          bin/pasty --assembly test/O1-GCA_000705235.fna.gz --prefix O1-GCA_000705235 --db db/OSAdb.fasta
+          cat O1-GCA_000705235.tsv
+          cat O1-GCA_000705235.details.tsv
+          echo "O2-GCF_000006765"
+          bin/pasty --assembly test/O2-GCF_000006765.fna.gz --prefix O2-GCF_000006765
+          cat O2-GCF_000006765.tsv
+          cat O2-GCF_000006765.details.tsv
+          echo "O6-GCF_000817165"
+          bin/pasty --assembly test/O6-GCF_000817165.fna.gz --prefix O6-GCF_000817165
+          cat O6-GCF_000817165.tsv
+          cat O6-GCF_000817165.details.tsv
+          echo "O7-GCF_000647615"
+          bin/pasty --assembly test/O7-GCF_000647615.fna.gz --prefix O7-GCF_000647615
+          cat O7-GCF_000647615.tsv
+          cat O7-GCF_000647615.details.tsv
+          echo "NT-GCF_000292685"
+          bin/pasty --assembly test/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685 --db db/OSAdb.fasta
+          cat NT-GCF_000292685.tsv
+          cat NT-GCF_000292685.details.tsv
           echo "empty"
           bin/pasty --assembly test/empty.fasta --prefix empty
           cat empty.tsv
