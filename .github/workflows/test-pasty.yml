@@ -1,0 +1,66 @@
+name: pasty-test
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  pasty-tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - name: Checkout rpetit3/pasty
+        uses: actions/checkout@v2
+
+      - name: Setup miniconda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: pasty
+          auto-activate-base: false
+
+      - name: Setup pasty Environment
+        run: |
+          conda install -y -c conda-forge -c bioconda rich-click executor 'python>=3.7' blast
+
+      - name: Environment Information
+        run: uname -a && env
+
+      - name: Test pasty basics
+        run: |
+          echo "Testing dragonflye"
+          bin/pasty --version
+          bin/pasty --help
+
+      - name: Test patsy
+        run: |
+          echo "GCF_000006765"
+          bin/pasty --assembly test/GCF_000006765.fna --prefix GCF_000006765 --db db/OSAdb.fasta
+          cat GCF_000006765.tsv
+          cat GCF_000006765.details.tsv
+          echo "GCF_000292685"
+          bin/pasty --assembly test/GCF_000292685.fna.gz --prefix GCF_000292685
+          cat GCF_000292685.tsv
+          cat GCF_000292685.details.tsv
+          echo "GCF_000006765"
+          bin/pasty --assembly test/GCF_003000695.fna.gz --prefix GCF_003000695 --db db/OSAdb.fasta
+          cat GCF_003000695.tsv
+          cat GCF_003000695.details.tsv
+          echo "empty"
+          bin/pasty --assembly test/empty.fasta --prefix empty
+          cat empty.tsv
+          cat empty.details.tsv
+          echo "not-a-fasta"
+          bin/pasty --assembly test/not-a-fasta.fasta --prefix not-a-fasta
+          cat not-a-fasta.tsv
+          cat not-a-fasta.details.tsv
+          echo "poor"
+          bin/pasty --assembly test/poor.fasta --prefix poor
+          cat poor.tsv
+          cat poor.details.tsv
