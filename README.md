@@ -34,6 +34,8 @@ bin/pasty --help
 
 ## Usage
 
+![pasty](https://user-images.githubusercontent.com/5334269/178814734-e8099ddd-6a10-4030-8f30-a70167f17ec1.svg)
+
 ```{bash}
  Usage: pasty [OPTIONS]
 
