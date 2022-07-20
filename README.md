@@ -21,15 +21,14 @@ of the original PAst publication (citation below).
 
 ## Installation
 
-`pasty` will be added to Bioconda once the first release is made. But for the time being
-the required dependencies can be installed like so:
+`pasty` Is available from Bioconda
+
+### Conda
 
 ```{bash}
-mamba create -n pasty-dev -c conda-forge -c bioconda rich-click executor 'python>=3.7' blast
-mamba activate pasty-dev
-git@github.com:rpetit3/pasty.git
-cd pasty
-bin/pasty --help
+mamba create -n pasty -c conda-forge -c bioconda pasty
+conda activate pasty
+pasty --help
 ```
 
 ## Usage
