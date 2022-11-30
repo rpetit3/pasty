@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/rpetit3/pasty)
+
 # pasty
 A tool easily taken advantage of for in silico serogrouping of _Pseudomonas aeruginosa_ isolates
 
