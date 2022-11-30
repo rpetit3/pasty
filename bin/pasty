@@ -7,7 +7,7 @@ from rich.table import Table
 import rich_click as click
 
 DB_FASTA = str(Path( __file__ ).parent.absolute()).replace("bin", "db/OSAdb.fasta")
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 BLASTN_COLS = [
     "qseqid", "sseqid", "pident", "qlen", "slen", "length", "nident", "mismatch", "gapopen",
     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qseq", "sseq"
@@ -114,7 +114,7 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
                 predicted_antigen = antigen
 
     # Predict serotype
-    predicted_serogroup = {'serogroup': 'NT', 'cov': highest_coverage, 'fragments': 0}
+    predicted_serogroup = {'serogroup': 'NT', 'cov': highest_coverage, 'fragments': 0, 'comment': ''}
     if predicted_antigen:
         if predicted_antigen == 'O2' and wzyb:
             predicted_serogroup['serogroup'] = 'O2'
@@ -124,6 +124,9 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
             predicted_serogroup['serogroup'] = predicted_antigen
         predicted_serogroup['cov'] = serogroups[predicted_antigen]['cov']
         predicted_serogroup['fragments'] = len(hits[predicted_antigen]['hits'])
+
+    if predicted_serogroup['serogroup'] == 'NT':
+        predicted_serogroup['comment'] = 'No match exceeded percent identity and/or coverage thresholds'
 
     # If multiple hits, return the one with the longest length
     return [serogroups, predicted_serogroup]
@@ -144,6 +147,13 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
     prefix = str(Path(assembly).stem) if prefix == "basename of input" else prefix
 
     console = Console()
+    print("[italic]Running [deep_sky_blue1]pasty[/deep_sky_blue1] with following parameters:[/italic]")
+    print(f"[italic]    --assembly {assembly}[/italic]")
+    print(f"[italic]    --db {db}[/italic]")
+    print(f"[italic]    --prefix {prefix}[/italic]")
+    print(f"[italic]    --outdir {outdir}[/italic]")
+    print(f"[italic]    --min_pident {min_pident}[/italic]")
+    print(f"[italic]    --min_coverage {min_coverage}[/italic]\n")
     print("[italic]Running BLASTN...[/italic]")
     blastn_parsed, blastn_stdout, blastn_stderr = run_blastn(assembly, db, min_pident)
     serogroups, predicted_serogroup = predict_serogroup(blastn_parsed, min_coverage)
@@ -180,11 +190,12 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
     prediction_table.add_column("serogroup", style="cyan")
     prediction_table.add_column("coverage", style="green")
     prediction_table.add_column("fragments", style="green")
+    prediction_table.add_column("comment", style="green")
     with open(f"{outfile}.tsv", 'wt') as fh_out:
-        prediction_table.add_row(prefix, predicted_serogroup['serogroup'], str(predicted_serogroup['cov']), str(predicted_serogroup['fragments']))
-        fh_out.write("sample\tserogroup\tcoverage\tfragments\n")
-        fh_out.write(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}\n")
-    console.print(prediction_table)  
+        prediction_table.add_row(prefix, predicted_serogroup['serogroup'], str(predicted_serogroup['cov']), str(predicted_serogroup['fragments']), predicted_serogroup['comment'])
+        fh_out.write("sample\tserogroup\tcoverage\tfragments\tcomment\n")
+        fh_out.write(f"{prefix}\t{predicted_serogroup['serogroup']}\t{predicted_serogroup['cov']}\t{predicted_serogroup['fragments']}\t{predicted_serogroup['comment']}\n")
+    console.print(prediction_table)
     print(f"[italic]Predicted serogroup result written to [deep_sky_blue1]{outfile}.tsv[/deep_sky_blue1][/italic]\n")
 
 

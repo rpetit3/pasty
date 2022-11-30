@@ -48,10 +48,10 @@ jobs:
           bin/pasty --assembly test/O2-GCF_000006765.fna.gz --prefix O2-GCF_000006765 --outdir O2
           cat O2/O2-GCF_000006765.tsv
           cat O2/O2-GCF_000006765.details.tsv
-          echo "O6-GCF_000817165"
-          bin/pasty --assembly test/O6-GCF_000817165.fna.gz --prefix O6-GCF_000817165
-          cat O6-GCF_000817165.tsv
-          cat O6-GCF_000817165.details.tsv
+          echo "O6-GCF_001457615"
+          bin/pasty --assembly test/O6-GCF_001457615.fna.gz --prefix O6-GCF_001457615
+          cat O6-GCF_001457615.tsv
+          cat O6-GCF_001457615.details.tsv
           echo "O7-GCF_000647615"
           bin/pasty --assembly test/O7-GCF_000647615.fna.gz --prefix O7-GCF_000647615
           cat O7-GCF_000647615.tsv
