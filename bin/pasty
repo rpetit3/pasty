@@ -7,9 +7,9 @@ from rich.table import Table
 import rich_click as click
 
 DB_FASTA = str(Path( __file__ ).parent.absolute()).replace("bin", "db/OSAdb.fasta")
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 BLASTN_COLS = [
-    "qseqid", "sseqid", "pident", "qlen", "slen", "length", "nident", "mismatch", "gapopen",
+    "qseqid", "sseqid", "pident", "qlen", "slen", "length", "nident", "positive", "mismatch", "gapopen", "gaps",
     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qseq", "sseq"
 ]
 SEROGROUPS = ["O1","O2", "O3", "O4", "O5", "O6", "O7", "O9", "O10", "O11", "O12", "O13", "WyzB"]
@@ -62,13 +62,20 @@ def run_blastn(query: str, db: str, min_pident: float) -> dict:
                 result = dict(zip(BLASTN_COLS, line.split('\t')))
 
                 if result['sseqid'] not in results:
-                    results[result['sseqid']] = {'hits': [], 'slen': result['slen'], 'length': 0}
+                    results[result['sseqid']] = {'hits': [], 'slen': result['slen'], 'hit_length': 0, 'comment': ''}
 
                 if float(result['pident']) >= min_pident:
                     # Add hit to list of hits
                     results[result['sseqid']]['hits'].append(result)
-                    # Add length of hit to total length (includes gaps and mismatches)
-                    results[result['sseqid']]['length'] += int(result['length'])
+                    # Add length of hit to total length (subtracting gaps)
+                    results[result['sseqid']]['hit_length'] += int(result['nident']) + int(result['mismatch']) - int(result['gaps'])
+
+                    if results[result['sseqid']]['hit_length'] > int(result['slen']):
+                        # There are overlapping hits
+                        results[result['sseqid']]['hit_length'] = result['slen']
+                        results[result['sseqid']]['comment'] = 'One or more fragments overlapped'
+                    elif len(results[result['sseqid']]['hits']) > 1:
+                        results[result['sseqid']]['comment'] = 'Coverage calculated from multiple blast hits'
 
         return [results, raw_results, command.decoded_stderr]
     except ExternalCommandFailed as e:
@@ -94,27 +101,29 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
 
     wzyb = False
     if 'WzyB' in hits:
-        wyzb_cov = 100 - (100 * (int(hits['WzyB']['slen']) - int(hits['WzyB']['length'])) / float(hits['WzyB']['slen']))
+        wyzb_cov = 100 * (int(hits['WzyB']['hit_length']) / float(hits['WzyB']['slen']))
         wzyb = True if wyzb_cov >= min_coverage else False
         serogroups['WzyB'] = {'cov': f"{wyzb_cov:.2f}", 'hits': len(hits['WzyB']['hits'])}
 
 
     highest_coverage = 0
     predicted_antigen = None
+    comment = ''
     for antigen, hit in hits.items():
         if antigen == 'WzyB':
             continue
 
         # Check if antigen is present
-        cov = 100 - (100 * (int(hit['slen']) - int(hit['length'])) / float(hit['slen']))
+        cov = 100 * (int(hit['hit_length']) / float(hit['slen']))
         serogroups[antigen] = {'cov': f"{cov:.2f}", 'fragments': len(hit['hits'])}
         if cov >= min_coverage:
             if cov > highest_coverage:
                 highest_coverage = cov
                 predicted_antigen = antigen
+                comment = hit['comment']
 
     # Predict serotype
-    predicted_serogroup = {'serogroup': 'NT', 'cov': highest_coverage, 'fragments': 0, 'comment': ''}
+    predicted_serogroup = {'serogroup': 'NT', 'cov': highest_coverage, 'fragments': 0, 'comment': comment}
     if predicted_antigen:
         if predicted_antigen == 'O2' and wzyb:
             predicted_serogroup['serogroup'] = 'O2'
