@@ -584,9 +584,6 @@ Serogroup Results written to expected_results/NT-GCF_000292685/NT-GCF_000292685.
 └──────────────────┴───────────┴──────────┴───────────┴───────────────────────────────────────────────────────────────┘
 Predicted serogroup result written to expected_results/NT-GCF_000292685/NT-GCF_000292685.tsv
 ```
-../bin/pasty --assembly empty.fasta --prefix empty --outdir expected_results/empty/
-../bin/pasty --assembly not-a.fasta.fasta --prefix not-a.fasta --outdir expected_results/not-a.fasta/
-../bin/pasty --assembly poor.fasta --prefix poor --outdir expected_results/poor/
 
 ### Empty FASTA
 
