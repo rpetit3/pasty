@@ -98,8 +98,8 @@ This file will contain the final predicted serogroup based on highest coverage. 
 to expect the output to look like:
 
 ```{bash}
-sample  serogroup       coverage        fragments
-GCF_003000695       O2      100.00  1
+sample  serogroup       coverage        fragments       comment
+GCF_003000695        O2      100.00  1
 ```
 
 | Column Name | Description                                                              |
@@ -108,6 +108,7 @@ GCF_003000695       O2      100.00  1
 | serogroup   | The predicted serogroup                                                  |
 | coverage    | The percent of the O-antigen that was aligned to                         |
 | fragments   | The number of blast hits included in the prediction (_fewer the better_) |
+| comment     | A small comment when no serogroup can be predicted |
 
 ### Example `{PREFIX}.blastn.tsv`
 
