@@ -1,6 +1,6 @@
 # Releases
 
-## v1.0.2 rpetit3/pasty "PA7" - 2022/11/30
+## v1.0.2 rpetit3/pasty "PA7" - 2022/12/01
 
 - improved coverage calculation
 - added more comments
