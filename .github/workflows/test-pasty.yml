@@ -40,14 +40,22 @@ jobs:
 
       - name: Test patsy
         run: |
-          echo "O1-GCA_000705235"
-          bin/pasty --assembly test/O1-GCA_000705235.fna.gz --prefix O1-GCA_000705235 --db db/OSAdb.fasta
-          cat O1-GCA_000705235.tsv
-          cat O1-GCA_000705235.details.tsv
+          echo "O1-GCF_000504045"
+          bin/pasty --assembly test/O1-GCF_000504045.fna.gz --prefix O1-GCF_000504045 --db db/OSAdb.fasta
+          cat O1-GCF_000504045.tsv
+          cat O1-GCF_000504045.details.tsv
           echo "O2-GCF_000006765"
           bin/pasty --assembly test/O2-GCF_000006765.fna.gz --prefix O2-GCF_000006765 --outdir O2
           cat O2/O2-GCF_000006765.tsv
           cat O2/O2-GCF_000006765.details.tsv
+          echo "O3-GCF_000271365"
+          bin/pasty --assembly test/O3-GCF_000271365.fna.gz --prefix O3-GCF_000271365 --outdir O3
+          cat O3/O3-GCF_000271365.tsv
+          cat O3/O3-GCF_000271365.details.tsv
+          echo "O4-GCF_024652945"
+          bin/pasty --assembly test/O4-GCF_024652945.fna.gz --prefix O4-GCF_024652945 --outdir O4
+          cat O4/O4-GCF_024652945.tsv
+          cat O4/O4-GCF_024652945.details.tsv
           echo "O6-GCF_001457615"
           bin/pasty --assembly test/O6-GCF_001457615.fna.gz --prefix O6-GCF_001457615
           cat O6-GCF_001457615.tsv
@@ -56,6 +64,22 @@ jobs:
           bin/pasty --assembly test/O7-GCF_000647615.fna.gz --prefix O7-GCF_000647615
           cat O7-GCF_000647615.tsv
           cat O7-GCF_000647615.details.tsv
+          echo "O9-GCF_002075065"
+          bin/pasty --assembly test/O9-GCF_002075065.fna.gz --prefix O9-GCF_002075065
+          cat O9-GCF_002075065.tsv
+          cat O9-GCF_002075065.details.tsv
+          echo "O10-GCF_009676765"
+          bin/pasty --assembly test/O10-GCF_009676765.fna.gz --prefix O10-GCF_009676765
+          cat O10-GCF_009676765.tsv
+          cat O10-GCF_009676765.details.tsv
+          echo "O11-GCF_002192495"
+          bin/pasty --assembly test/O11-GCF_002192495.fna.gz --prefix O11-GCF_002192495
+          cat O11-GCF_002192495.tsv
+          cat O11-GCF_002192495.details.tsv
+          echo "O12-GCF_000981825"
+          bin/pasty --assembly test/O12-GCF_000981825.fna.gz --prefix O12-GCF_000981825
+          cat O12-GCF_000981825.tsv
+          cat O12-GCF_000981825.details.tsv
           echo "NT-GCF_000292685"
           bin/pasty --assembly test/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685 --db db/OSAdb.fasta
           cat NT-GCF_000292685.tsv
