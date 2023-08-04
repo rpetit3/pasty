@@ -7,7 +7,7 @@ from rich.table import Table
 import rich_click as click
 
 DB_FASTA = str(Path( __file__ ).parent.absolute()).replace("bin", "db/OSAdb.fasta")
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 BLASTN_COLS = [
     "qseqid", "sseqid", "pident", "qlen", "slen", "length", "nident", "positive", "mismatch", "gapopen", "gaps",
     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qseq", "sseq"
@@ -72,7 +72,7 @@ def run_blastn(query: str, db: str, min_pident: float) -> dict:
 
                     if results[result['sseqid']]['hit_length'] > int(result['slen']):
                         # There are overlapping hits
-                        results[result['sseqid']]['hit_length'] = result['slen']
+                        results[result['sseqid']]['hit_length'] = int(result['slen'])
                         results[result['sseqid']]['comment'] = 'One or more fragments overlapped'
                     elif len(results[result['sseqid']]['hits']) > 1:
                         results[result['sseqid']]['comment'] = 'Coverage calculated from multiple blast hits'
@@ -209,4 +209,7 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
 
 
 if __name__ == '__main__':
-    pasty()
+    if len(sys.argv) == 1:
+        pasty.main(['--help'])
+    else:
+        pasty()

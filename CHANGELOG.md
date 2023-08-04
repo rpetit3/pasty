@@ -1,5 +1,10 @@
 # Releases
 
+## v1.0.3 rpetit3/pasty "PAC1" - 2023/08/04
+
+- fixed bug when int concatenated to str during blast
+- print the usage when no options provided
+
 ## v1.0.2 rpetit3/pasty "PA7" - 2022/12/01
 
 - improved coverage calculation

@@ -96,3 +96,7 @@ jobs:
           bin/pasty --assembly test/poor.fasta --prefix poor --outdir poor
           cat poor/poor.tsv
           cat poor/poor.details.tsv
+          echo "O2-GCF_001444895-int-bug"
+          bin/pasty --assembly test/O2-GCF_001444895-int-bug.fna.gz --prefix O2-GCF_001444895-int-bug --outdir O2
+          cat O2/O2-GCF_001444895-int-bug.tsv
+          cat O2/O2-GCF_001444895-int-bug.details.tsv
