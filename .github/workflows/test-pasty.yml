@@ -37,6 +37,7 @@ jobs:
           echo "Testing patsy"
           bin/pasty --version
           bin/pasty --help
+          bin/pasty --check
 
       - name: Test patsy
         run: |
