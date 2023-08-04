@@ -4,6 +4,7 @@
 
 - fixed bug when int concatenated to str during blast
 - print the usage when no options provided
+- add `--check` to check for dependencies
 
 ## v1.0.2 rpetit3/pasty "PA7" - 2022/12/01
 

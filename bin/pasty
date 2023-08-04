@@ -14,6 +14,29 @@ BLASTN_COLS = [
 ]
 SEROGROUPS = ["O1","O2", "O3", "O4", "O5", "O6", "O7", "O9", "O10", "O11", "O12", "O13", "WyzB"]
 
+
+def check_dependencies():
+    """
+    Check if all dependencies are installed.
+    """
+    from shutil import which
+    exit_code = 0
+    print(f'Checking dependencies...', file=sys.stderr)
+    for program in ['blastn']:
+        which_path = which(program)
+        if which_path:
+            print(f'Found {program} at {which_path}', file=sys.stderr)
+        else:
+            print(f'{program} not found', file=sys.stderr)
+            exit_code = 1
+    
+    if exit_code == 1:
+        print(f'Missing dependencies, please check.', file=sys.stderr)
+    else:
+        print(f'You are all set!', file=sys.stderr)
+    sys.exit(exit_code)
+
+
 def check_file_exists(filename: str) -> str:
     """
     Check if file exists and return the absolute path of file, otherwise raise an error.
@@ -149,7 +172,8 @@ def predict_serogroup(hits: dict, min_coverage: float) -> dict:
 @click.option('--outdir', default="./", show_default=True, help='Directory to save output files')
 @click.option('--min_pident', default=95, show_default=True, help='Minimum percent identity to count a hit')
 @click.option('--min_coverage', default=95, show_default=True, help='Minimum percent coverage to count a hit')
-def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
+@click.option('--check', is_flag=True, help='Check dependencies are installed, then exit')
+def pasty(assembly, db, prefix, outdir, min_pident, min_coverage, check):
     """A tool easily taken advantage of for in silico serogrouping of Pseudomonas aeruginosa isolates"""
     assembly = check_file_exists(assembly)
     db = check_file_exists(db)
@@ -211,5 +235,7 @@ def pasty(assembly, db, prefix, outdir, min_pident, min_coverage):
 if __name__ == '__main__':
     if len(sys.argv) == 1:
         pasty.main(['--help'])
+    elif "--check" in sys.argv:
+        check_dependencies()
     else:
         pasty()
