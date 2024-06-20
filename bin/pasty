@@ -12,7 +12,7 @@ BLASTN_COLS = [
     "qseqid", "sseqid", "pident", "qlen", "slen", "length", "nident", "positive", "mismatch", "gapopen", "gaps",
     "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qseq", "sseq"
 ]
-SEROGROUPS = ["O1","O2", "O3", "O4", "O5", "O6", "O7", "O9", "O10", "O11", "O12", "O13", "WyzB"]
+SEROGROUPS = ["O1","O2", "O3", "O4", "O5", "O6", "O7", "O9", "O10", "O11", "O12", "O13", "O15", "O17", "WyzB"]
 
 
 def check_dependencies():
