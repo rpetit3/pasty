@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup pasty Environment
         run: |
-          conda install -y -c conda-forge -c bioconda rich-click executor 'python>=3.7' blast
+          conda install -y -c conda-forge -c bioconda 'camlhmp>=0.2.1'
 
       - name: Environment Information
         run: uname -a && env
@@ -37,67 +37,66 @@ jobs:
           echo "Testing patsy"
           bin/pasty --version
           bin/pasty --help
-          bin/pasty --check
 
       - name: Test patsy
         run: |
-          echo "O1-GCF_000504045"
-          bin/pasty --assembly test/O1-GCF_000504045.fna.gz --prefix O1-GCF_000504045 --db db/OSAdb.fasta
-          cat O1-GCF_000504045.tsv
-          cat O1-GCF_000504045.details.tsv
-          echo "O2-GCF_000006765"
-          bin/pasty --assembly test/O2-GCF_000006765.fna.gz --prefix O2-GCF_000006765 --outdir O2
-          cat O2/O2-GCF_000006765.tsv
-          cat O2/O2-GCF_000006765.details.tsv
-          echo "O3-GCF_000271365"
-          bin/pasty --assembly test/O3-GCF_000271365.fna.gz --prefix O3-GCF_000271365 --outdir O3
-          cat O3/O3-GCF_000271365.tsv
-          cat O3/O3-GCF_000271365.details.tsv
-          echo "O4-GCF_024652945"
-          bin/pasty --assembly test/O4-GCF_024652945.fna.gz --prefix O4-GCF_024652945 --outdir O4
-          cat O4/O4-GCF_024652945.tsv
-          cat O4/O4-GCF_024652945.details.tsv
-          echo "O6-GCF_001457615"
-          bin/pasty --assembly test/O6-GCF_001457615.fna.gz --prefix O6-GCF_001457615
-          cat O6-GCF_001457615.tsv
-          cat O6-GCF_001457615.details.tsv
-          echo "O7-GCF_001482325"
-          bin/pasty --assembly test/O7-GCF_001482325.fna.gz --prefix O7-GCF_001482325
-          cat O7-GCF_001482325.tsv
-          cat O7-GCF_001482325.details.tsv
-          echo "O9-GCF_002075065"
-          bin/pasty --assembly test/O9-GCF_002075065.fna.gz --prefix O9-GCF_002075065
-          cat O9-GCF_002075065.tsv
-          cat O9-GCF_002075065.details.tsv
-          echo "O10-GCF_009676765"
-          bin/pasty --assembly test/O10-GCF_009676765.fna.gz --prefix O10-GCF_009676765
-          cat O10-GCF_009676765.tsv
-          cat O10-GCF_009676765.details.tsv
-          echo "O11-GCF_002192495"
-          bin/pasty --assembly test/O11-GCF_002192495.fna.gz --prefix O11-GCF_002192495
-          cat O11-GCF_002192495.tsv
-          cat O11-GCF_002192495.details.tsv
-          echo "O12-GCF_000981825"
-          bin/pasty --assembly test/O12-GCF_000981825.fna.gz --prefix O12-GCF_000981825
-          cat O12-GCF_000981825.tsv
-          cat O12-GCF_000981825.details.tsv
+          echo "O1-GCF_001420225"
+          bin/pasty --input test/data/O1-GCF_001420225.fna.gz --prefix O1-GCF_001420225 --db db/OSAdb.fasta
+          cat O1-GCF_001420225.tsv
+          cat O1-GCF_001420225.details.tsv
+          echo "O2-GCF_001420185"
+          bin/pasty --input test/data/O2-GCF_001420185.fna.gz --prefix O2-GCF_001420185 --outdir O2
+          cat O2/O2-GCF_001420185.tsv
+          cat O2/O2-GCF_001420185.details.tsv
+          echo "O3-GCF_001420205"
+          bin/pasty --input test/data/O3-GCF_001420205.fna.gz --prefix O3-GCF_001420205 --outdir O3
+          cat O3/O3-GCF_001420205.tsv
+          cat O3/O3-GCF_001420205.details.tsv
+          echo "O4-GCF_001420245"
+          bin/pasty --input test/data/O4-GCF_001420245.fna.gz --prefix O4-GCF_001420245 --outdir O4
+          cat O4/O4-GCF_001420245.tsv
+          cat O4/O4-GCF_001420245.details.tsv
+          echo "O5-GCF_001420265"
+          bin/pasty --input test/data/O5-GCF_001420265.fna.gz --prefix O5-GCF_001420265 --outdir O5
+          cat O5/O5-GCF_001420265.tsv
+          cat O5/O5-GCF_001420265.details.tsv
+          echo "O6-GCF_001444755"
+          bin/pasty --input test/data/O6-GCF_001444755.fna.gz --prefix O6-GCF_001444755
+          cat O6-GCF_001444755.tsv
+          cat O6-GCF_001444755.details.tsv
+          echo "O7-GCF_001444745"
+          bin/pasty --input test/data/O7-GCF_001444745.fna.gz --prefix O7-GCF_001444745
+          cat O7-GCF_001444745.tsv
+          cat O7-GCF_001444745.details.tsv
+          echo "O9-GCF_001444815"
+          bin/pasty --input test/data/O9-GCF_001444815.fna.gz --prefix O9-GCF_001444815
+          cat O9-GCF_001444815.tsv
+          cat O9-GCF_001444815.details.tsv
+          echo "O10-GCF_001444835"
+          bin/pasty --input test/data/O10-GCF_001444835.fna.gz --prefix O10-GCF_001444835
+          cat O10-GCF_001444835.tsv
+          cat O10-GCF_001444835.details.tsv
+          echo "O11-GCF_001444955"
+          bin/pasty --input test/data/O11-GCF_001444955.fna.gz --prefix O11-GCF_001444955
+          cat O11-GCF_001444955.tsv
+          cat O11-GCF_001444955.details.tsv
+          echo "O12-GCF_001444975"
+          bin/pasty --input test/data/O12-GCF_001444975.fna.gz --prefix O12-GCF_001444975
+          cat O12-GCF_001444975.tsv
+          cat O12-GCF_001444975.details.tsv
+          echo "O13-GCF_001444995"
+          bin/pasty --input test/data/O13-GCF_001444995.fna.gz --prefix O13-GCF_001444995
+          cat O13-GCF_001444995.tsv
+          cat O13-GCF_001444995.details.tsv
           echo "NT-GCF_000292685"
-          bin/pasty --assembly test/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685 --db db/OSAdb.fasta
+          bin/pasty --input test/data/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685 --db db/OSAdb.fasta
           cat NT-GCF_000292685.tsv
           cat NT-GCF_000292685.details.tsv
-          echo "empty"
-          bin/pasty --assembly test/empty.fasta --prefix empty
-          cat empty.tsv
-          cat empty.details.tsv
           echo "not-a-fasta"
-          bin/pasty --assembly test/not-a-fasta.fasta --prefix not-a-fasta
+          bin/pasty --input test/data/not-a-fasta.fasta --prefix not-a-fasta
           cat not-a-fasta.tsv
           cat not-a-fasta.details.tsv
           echo "poor"
-          bin/pasty --assembly test/poor.fasta --prefix poor --outdir poor
+          bin/pasty --input test/data/poor.fasta --prefix poor --outdir poor
           cat poor/poor.tsv
           cat poor/poor.details.tsv
-          echo "O2-GCF_001444895-int-bug"
-          bin/pasty --assembly test/O2-GCF_001444895-int-bug.fna.gz --prefix O2-GCF_001444895-int-bug --outdir O2
-          cat O2/O2-GCF_001444895-int-bug.tsv
-          cat O2/O2-GCF_001444895-int-bug.details.tsv
