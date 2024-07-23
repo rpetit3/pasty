@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup pasty Environment
         run: |
-          conda install -y -c conda-forge -c bioconda 'camlhmp>=0.2.1'
+          conda install -y -c conda-forge -c bioconda 'camlhmp>=0.2.2'
 
       - name: Environment Information
         run: uname -a && env
@@ -41,7 +41,7 @@ jobs:
       - name: Test patsy
         run: |
           echo "O1-GCF_001420225"
-          bin/pasty --input test/data/O1-GCF_001420225.fna.gz --prefix O1-GCF_001420225 --db db/OSAdb.fasta
+          bin/pasty --input test/data/O1-GCF_001420225.fna.gz --prefix O1-GCF_001420225
           cat O1-GCF_001420225.tsv
           cat O1-GCF_001420225.details.tsv
           echo "O2-GCF_001420185"
@@ -89,7 +89,7 @@ jobs:
           cat O13-GCF_001444995.tsv
           cat O13-GCF_001444995.details.tsv
           echo "NT-GCF_000292685"
-          bin/pasty --input test/data/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685 --db db/OSAdb.fasta
+          bin/pasty --input test/data/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685
           cat NT-GCF_000292685.tsv
           cat NT-GCF_000292685.details.tsv
           echo "not-a-fasta"
