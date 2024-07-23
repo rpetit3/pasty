@@ -1,0 +1,2 @@
+sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+poor	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined

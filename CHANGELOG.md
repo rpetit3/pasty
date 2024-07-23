@@ -1,5 +1,10 @@
 # Releases
 
+## v2.0.0 rpetit3/pasty "PACS2" - 2024/07/22
+
+- `pasty` now uses the `camlhmp` framework for classification
+- fixed O2 and O5 serogroup classification
+
 ## v1.0.3 rpetit3/pasty "PAC1" - 2023/08/04
 
 - fixed bug when int concatenated to str during blast

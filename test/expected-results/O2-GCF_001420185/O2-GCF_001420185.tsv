@@ -1,0 +1,2 @@
+sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+O2-GCF_001420185	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	

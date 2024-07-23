@@ -1,481 +1,864 @@
-sample	serogroup	coverage	fragments	comment
-GCF_000006765	O2	99.91	1	
-GCF_000014625	O10	100.00	1	
-GCF_000017205	O12	99.91	1	
-GCF_000026645	O6	99.99	1	
-GCF_000226155	O6	99.97	1	
-GCF_000271365	O3	100.00	2	Coverage calculated from multiple blast hits
-GCF_000271985	O3	99.99	1	
-GCF_000284555	O11	99.99	1	
-GCF_000359505	O11	100.00	1	
-GCF_000414035	O3	99.99	1	
-GCF_000473745	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_000496455	O6	100.00	1	
-GCF_000496605	O6	99.97	1	
-GCF_000496645	O6	99.97	1	
-GCF_000504045	O1	99.97	1	
-GCF_000508765	O6	99.99	1	
-GCF_000510305	O3	99.99	1	
-GCF_000524595	O6	99.97	1	
-GCF_000568855	O6	99.99	1	
-GCF_000763245	O2	99.94	1	
-GCF_000816985	O4	100.00	1	
-GCF_000829255	O11	100.00	1	
-GCF_000829275	O11	100.00	1	
-GCF_000829885	O4	99.97	1	
-GCF_000981825	O12	99.91	1	
-GCF_001045685	O6	99.97	1	
-GCF_001077475	O6	99.97	1	
-GCF_001293085	O6	99.97	1	
-GCF_001447845	O6	99.97	1	
-GCF_001457615	O6	99.97	1	
-GCF_001482325	O7	99.98	1	
-GCF_001515845	O6	100.00	2	One or more fragments overlapped
-GCF_001515915	O6	99.97	1	
-GCF_001516005	O3	99.99	1	
-GCF_001516105	O6	99.99	1	
-GCF_001516165	O2	99.90	1	
-GCF_001516185	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_001516205	O1	99.99	1	
-GCF_001516225	O6	99.99	1	
-GCF_001516245	O4	100.00	1	
-GCF_001516265	O4	100.00	1	
-GCF_001516305	O1	99.99	1	
-GCF_001516325	O4	100.00	1	
-GCF_001516345	O10	99.85	1	
-GCF_001516365	O2	99.94	1	
-GCF_001516385	O2	99.93	1	
-GCF_001518975	O2	99.94	1	
-GCF_001542795	O6	99.97	1	
-GCF_001542835	O6	99.97	1	
-GCF_001547955	O11	100.00	1	
-GCF_001548135	O3	99.99	1	
-GCF_001548335	O7	100.00	1	
-GCF_001594325	O3	99.98	1	
-GCF_001606045	O6	99.99	1	
-GCF_001618925	O6	99.97	1	
-GCF_001632245	O1	99.96	1	
-GCF_001679685	O4	100.00	1	
-GCF_001687285	O6	99.97	1	
-GCF_001721745	O11	100.00	1	
-GCF_001721765	O11	100.00	1	
-GCF_001721785	O11	100.00	1	
-GCF_001721805	O11	100.00	1	
-GCF_001721825	O11	100.00	1	
-GCF_001721845	O11	100.00	1	
-GCF_001722005	O11	99.99	1	
-GCF_001722025	O11	100.00	1	
-GCF_001722045	O11	100.00	1	
-GCF_001729505	O2	99.91	1	
-GCF_001750705	O1	99.99	1	
-GCF_001792835	O2	99.94	1	
-GCF_001792855	O2	99.94	1	
-GCF_001792875	O2	99.94	1	
-GCF_001870265	O2	99.94	1	
-GCF_001874465	O11	100.00	1	
-GCF_001879525	O6	99.97	1	
-GCF_001900195	O3	100.00	2	One or more fragments overlapped
-GCF_001900225	O3	100.00	2	One or more fragments overlapped
-GCF_001900265	O3	100.00	2	One or more fragments overlapped
-GCF_002075065	O9	100.00	1	
-GCF_002085605	O12	99.91	1	
-GCF_002085755	O11	100.00	1	
-GCF_002104595	O11	100.00	1	
-GCF_002104615	O11	99.96	1	
-GCF_002192475	O11	100.00	2	One or more fragments overlapped
-GCF_002192495	O11	100.00	1	
-GCF_002205335	O4	100.00	1	
-GCF_002205355	O11	100.00	2	One or more fragments overlapped
-GCF_002205375	O2	99.91	1	
-GCF_002208645	O6	99.96	1	
-GCF_002215345	O6	99.97	1	
-GCF_002223805	O10	100.00	1	
-GCF_002237405	O11	99.97	1	
-GCF_002237425	O11	99.99	1	
-GCF_002287725	O11	100.00	3	One or more fragments overlapped
-GCF_002411865	O4	100.00	1	
-GCF_002442855	O6	99.97	1	
-GCF_002753655	O4	100.00	2	One or more fragments overlapped
-GCF_002812825	O11	100.00	1	
-GCF_002812845	O11	100.00	1	
-GCF_002812865	O6	99.99	1	
-GCF_002812885	O6	99.99	1	
-GCF_002812905	O11	100.00	1	
-GCF_002812925	O11	100.00	1	
-GCF_002946935	O4	100.00	1	
-GCF_002968515	O6	99.97	1	
-GCF_002968585	O11	100.00	1	
-GCF_002968655	O11	100.00	1	
-GCF_002968695	O6	99.97	1	
-GCF_002968955	O11	100.00	1	
-GCF_002997005	O11	100.00	2	One or more fragments overlapped
-GCF_003028335	O11	100.00	1	
-GCF_003052005	O2	99.94	1	
-GCF_003060845	O1	99.99	1	
-GCF_003073615	O6	99.97	1	
-GCF_003073735	O12	99.91	1	
-GCF_003073795	O6	99.99	1	
-GCF_003073895	O6	99.98	2	Coverage calculated from multiple blast hits
-GCF_003193645	O2	99.39	1	
-GCF_003194245	O6	100.00	1	
-GCF_003204335	O6	99.97	1	
-GCF_003206535	O6	99.97	1	
-GCF_003288335	O6	99.96	1	
-GCF_003288355	O11	100.00	1	
-GCF_003288435	O3	100.00	1	
-GCF_003319235	O1	99.99	1	
-GCF_003332705	O11	99.96	1	
-GCF_003369735	O12	99.90	1	
-GCF_003369755	O12	99.91	1	
-GCF_003369775	O6	99.97	1	
-GCF_003408495	O12	99.91	1	
-GCF_003411785	O11	100.00	3	One or more fragments overlapped
-GCF_003429185	O2	99.93	1	
-GCF_003429205	O9	100.00	1	
-GCF_003433235	O11	99.99	1	
-GCF_003571505	O4	100.00	1	
-GCF_003571805	O6	99.97	1	
-GCF_003626935	O11	100.00	2	One or more fragments overlapped
-GCF_003641125	O11	100.00	1	
-GCF_003716765	O11	100.00	2	One or more fragments overlapped
-GCF_003798105	O1	99.99	1	
-GCF_003798125	O11	100.00	1	
-GCF_003798145	O10	100.00	1	
-GCF_003812165	O6	99.99	2	Coverage calculated from multiple blast hits
-GCF_003812885	O11	100.00	3	One or more fragments overlapped
-GCF_003812905	O11	100.00	1	
-GCF_003813005	O6	99.97	1	
-GCF_003813025	O12	99.99	1	
-GCF_003950015	O4	100.00	1	
-GCF_003950255	O11	100.00	2	One or more fragments overlapped
-GCF_003952325	O11	100.00	2	One or more fragments overlapped
-GCF_003957825	O2	99.91	1	
-GCF_003991465	O11	100.00	2	One or more fragments overlapped
-GCF_004010895	O6	99.97	1	
-GCF_004014755	O2	99.91	1	
-GCF_004102665	O2	99.91	1	
-GCF_004193735	O4	100.00	1	
-GCF_004291075	O2	99.94	1	
-GCF_004355125	O6	99.73	1	
-GCF_004355145	O6	99.97	1	
-GCF_005305005	O2	99.92	1	
-GCF_006364735	O2	99.91	1	
-GCF_006364795	O1	100.00	1	
-GCF_006704595	O11	100.00	3	One or more fragments overlapped
-GCF_006971785	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_007559065	O11	100.00	1	
-GCF_007559085	O3	100.00	1	
-GCF_007559105	O2	99.94	1	
-GCF_007559125	O11	99.96	1	
-GCF_007833895	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_008033725	O6	99.99	1	
-GCF_008033745	O6	99.99	1	
-GCF_008033765	O6	99.99	1	
-GCF_008195485	O11	100.00	1	
-GCF_008245185	O4	99.99	1	
-GCF_008705235	O6	99.99	1	
-GCF_009497675	O6	99.97	1	
-GCF_009648875	O4	100.00	1	
-GCF_009662315	O12	99.91	1	
-GCF_009664165	O11	100.00	1	
-GCF_009676765	O10	100.00	2	One or more fragments overlapped
-GCF_009676785	O10	100.00	2	One or more fragments overlapped
-GCF_009676885	O1	99.99	1	
-GCF_009720405	O11	99.99	1	
-GCF_009720425	O2	99.93	1	
-GCF_009867055	O6	99.99	1	
-GCF_009905195	O1	99.99	1	
-GCF_009911735	O6	99.96	1	
-GCF_011045375	O3	99.99	1	
-GCF_011106815	O4	100.00	1	
-GCF_011466835	O4	100.00	1	
-GCF_012276675	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_012935295	O2	99.93	1	
-GCF_012971705	O2	99.82	1	
-GCF_013001005	O2	99.91	1	
-GCF_013201095	O2	99.83	1	
-GCF_013201115	O2	99.89	1	
-GCF_013255565	O11	100.00	1	
-GCF_013260445	O4	100.00	1	
-GCF_013305645	O12	99.99	1	
-GCF_013305765	O2	99.91	1	
-GCF_013305815	O2	99.91	1	
-GCF_013305845	O2	99.91	1	
-GCF_013341295	O3	99.94	1	
-GCF_013341315	O6	99.97	1	
-GCF_013343315	O1	99.96	1	
-GCF_013343335	O9	99.98	1	
-GCF_013343355	O6	99.97	1	
-GCF_013343375	O9	100.00	1	
-GCF_013343395	O1	99.99	1	
-GCF_013343415	O6	99.35	2	Coverage calculated from multiple blast hits
-GCF_013343435	O6	99.97	1	
-GCF_013343455	O6	99.96	1	
-GCF_013343475	O6	99.97	1	
-GCF_013343495	O6	99.96	1	
-GCF_013343515	O11	100.00	1	
-GCF_013343535	O3	99.90	1	
-GCF_013343555	O6	99.96	1	
-GCF_013343575	O6	99.92	1	
-GCF_013347245	O6	99.97	1	
-GCF_013376775	O6	99.97	1	
-GCF_013393665	O11	100.00	1	
-GCF_013393685	O6	99.97	1	
-GCF_013393705	O11	100.00	1	
-GCF_013394455	O4	100.00	1	
-GCF_013394475	O11	100.00	2	One or more fragments overlapped
-GCF_013395035	O11	100.00	1	
-GCF_013467585	O11	100.00	1	
-GCF_013467605	O11	100.00	1	
-GCF_014155905	O12	99.99	1	
-GCF_014217315	O10	100.00	1	
-GCF_014467035	O11	100.00	1	
-GCF_014490645	O11	99.95	1	
-GCF_014792125	O4	99.90	2	Coverage calculated from multiple blast hits
-GCF_014854655	O4	100.00	1	
-GCF_014930935	O1	100.00	1	
-GCF_015697465	O6	99.92	1	
-GCF_015697605	O3	99.99	1	
-GCF_015697645	O11	99.90	1	
-GCF_015697665	O12	99.91	1	
-GCF_015832055	O4	100.00	1	
-GCF_015832075	O4	100.00	1	
-GCF_016064595	O6	99.99	1	
-GCF_016105505	O2	99.94	1	
-GCF_016105665	O6	99.97	1	
-GCF_016105885	O1	99.98	1	
-GCF_016107485	O2	99.91	1	
-GCF_016126955	O6	99.97	1	
-GCF_016134915	O4	100.00	1	
-GCF_016584725	O7	99.97	1	
-GCF_016743035	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_016743115	O11	99.62	2	Coverage calculated from multiple blast hits
-GCF_016745115	O12	99.99	1	
-GCF_016745135	O11	100.00	1	
-GCF_016745155	O2	99.91	1	
-GCF_016745175	O11	100.00	1	
-GCF_016745195	O11	100.00	1	
-GCF_016811975	O4	100.00	1	
-GCF_016864415	O2	99.81	1	
-GCF_016925455	O11	100.00	2	One or more fragments overlapped
-GCF_016925475	O11	100.00	2	One or more fragments overlapped
-GCF_017378395	O6	99.97	1	
-GCF_017378475	O6	99.97	1	
-GCF_017900915	O13	100.00	1	
-GCF_018138045	O4	100.00	1	
-GCF_018138065	O6	99.97	1	
-GCF_018141565	O6	99.97	1	
-GCF_018141625	O6	99.97	1	
-GCF_018141645	O6	99.97	1	
-GCF_018279245	O6	99.99	2	Coverage calculated from multiple blast hits
-GCF_018279265	O11	100.00	2	One or more fragments overlapped
-GCF_018279285	O6	99.99	2	Coverage calculated from multiple blast hits
-GCF_018279305	O11	99.99	1	
-GCF_018409365	O6	99.97	1	
-GCF_018448985	O11	100.00	1	
-GCF_018598285	O2	99.93	1	
-GCF_018986715	O11	99.94	1	
-GCF_019364615	O6	99.92	1	
-GCF_019378915	O1	99.99	1	
-GCF_019379355	O4	99.99	1	
-GCF_019434075	O6	99.88	1	
-GCF_019434095	O6	99.96	1	
-GCF_019434135	O2	99.30	1	
-GCF_019434155	O6	99.86	1	
-GCF_019434175	O6	99.88	1	
-GCF_019434235	O4	100.00	1	
-GCF_019443665	O6	99.81	1	
-GCF_019466095	O11	100.00	1	
-GCF_019466145	O6	99.97	1	
-GCF_019710495	O2	99.93	1	
-GCF_019711215	O11	100.00	1	
-GCF_019720855	O11	100.00	1	
-GCF_019720875	O11	100.00	1	
-GCF_019738995	O2	99.93	1	
-GCF_019857245	O2	99.91	1	
-GCF_019857265	O4	99.99	1	
-GCF_019857285	O4	100.00	2	One or more fragments overlapped
-GCF_019857305	O4	100.00	1	
-GCF_019857325	O7	99.99	1	
-GCF_019857345	O4	100.00	3	One or more fragments overlapped
-GCF_019857365	O4	100.00	1	
-GCF_019857405	O11	100.00	1	
-GCF_019857425	O3	100.00	2	One or more fragments overlapped
-GCF_019857445	O6	99.97	1	
-GCF_019857465	O11	100.00	1	
-GCF_019857485	O11	100.00	1	
-GCF_019857505	O4	100.00	1	
-GCF_019857525	O2	99.91	1	
-GCF_019857545	O4	100.00	1	
-GCF_019857565	O4	100.00	1	
-GCF_019857585	O4	100.00	1	
-GCF_019857605	O4	100.00	1	
-GCF_019857625	O4	100.00	1	
-GCF_019857645	O2	99.91	1	
-GCF_019915445	O2	99.91	1	
-GCF_019915485	O11	100.00	1	
-GCF_020771675	O2	99.91	1	
-GCF_020771755	O12	99.99	1	
-GCF_020978345	O1	99.99	1	
-GCF_020990445	O11	100.00	1	
-GCF_020990465	O4	100.00	1	
-GCF_020990485	O4	100.00	1	
-GCF_021166255	O6	99.97	1	
-GCF_021166275	O1	99.99	1	
-GCF_021166295	O1	99.99	1	
-GCF_021166315	O3	99.99	1	
-GCF_021166335	O6	99.97	1	
-GCF_021166355	O2	99.88	1	
-GCF_021166375	O6	99.92	1	
-GCF_021184245	O2	99.91	2	Coverage calculated from multiple blast hits
-GCF_021184265	O4	99.99	1	
-GCF_021249245	O6	99.97	1	
-GCF_021266605	O7	99.89	1	
-GCF_021378395	O4	100.00	1	
-GCF_021398755	O1	100.00	1	
-GCF_021460035	O2	99.91	1	
-GCF_021497285	O4	100.00	1	
-GCF_021497305	O4	100.00	1	
-GCF_021497325	O7	99.99	1	
-GCF_021497345	O2	99.91	1	
-GCF_021497365	O2	99.91	1	
-GCF_021497385	O11	100.00	1	
-GCF_021497405	O11	100.00	1	
-GCF_021497425	O6	99.97	1	
-GCF_021497445	O6	99.96	1	
-GCF_021513295	O2	99.94	1	
-GCF_021513375	O2	99.91	1	
-GCF_021513395	O2	99.91	1	
-GCF_021513415	O2	99.91	1	
-GCF_021513435	O2	99.91	1	
-GCF_021513455	O2	99.91	1	
-GCF_021513475	O2	99.91	1	
-GCF_021513495	O2	99.91	1	
-GCF_021513515	O2	99.91	1	
-GCF_021513535	O2	99.91	1	
-GCF_021513555	O2	99.91	1	
-GCF_021513575	O2	99.91	1	
-GCF_021513595	O2	99.90	1	
-GCF_021513615	O2	99.90	1	
-GCF_021513635	O2	99.90	1	
-GCF_021513675	O6	99.97	1	
-GCF_022213165	O2	99.91	1	
-GCF_022453765	O1	99.99	1	
-GCF_022453825	O1	99.97	1	
-GCF_022533445	O2	99.94	1	
-GCF_022559545	O6	99.97	1	
-GCF_022569855	O1	99.99	1	
-GCF_022569895	O6	99.97	1	
-GCF_022569915	O2	99.90	1	
-GCF_022569935	O6	99.97	1	
-GCF_022569975	O1	99.99	1	
-GCF_022569995	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_022570115	O11	100.00	1	
-GCF_022570235	O3	100.00	1	
-GCF_022570415	O11	100.00	2	One or more fragments overlapped
-GCF_022570435	O6	100.00	1	
-GCF_022570455	O11	100.00	1	
-GCF_022570475	O10	100.00	1	
-GCF_022637915	O4	100.00	1	
-GCF_022638055	O1	99.99	1	
-GCF_022638175	O1	99.99	1	
-GCF_022649105	O1	99.99	1	
-GCF_022649245	O1	99.99	1	
-GCF_022670795	O6	99.97	1	
-GCF_022699485	O1	99.98	1	
-GCF_022699505	O4	100.00	1	
-GCF_022699525	O6	99.97	1	
-GCF_022700635	O4	99.99	1	
-GCF_022810825	O10	100.00	1	
-GCF_022810865	O11	100.00	1	
-GCF_022810885	O11	100.00	1	
-GCF_022810905	O11	100.00	1	
-GCF_022810925	O11	100.00	1	
-GCF_022810945	O6	99.97	1	
-GCF_022810965	O11	100.00	1	
-GCF_022810985	O6	99.97	1	
-GCF_022811005	O6	99.94	1	
-GCF_022811025	O6	99.97	1	
-GCF_022811045	O6	99.97	1	
-GCF_022811065	O6	99.97	1	
-GCF_022811805	O11	100.00	1	
-GCF_022870025	O2	99.91	1	
-GCF_022870525	O11	100.00	1	
-GCF_022870545	O2	99.93	1	
-GCF_022870565	O6	99.97	1	
-GCF_023066825	O11	100.00	1	
-GCF_023066845	O2	99.91	1	
-GCF_023066865	O2	99.91	1	
-GCF_023093935	O12	99.91	1	
-GCF_023093975	O11	100.00	1	
-GCF_023101265	O6	99.99	2	Coverage calculated from multiple blast hits
-GCF_023101285	O6	99.97	1	
-GCF_023101305	O7	99.90	1	
-GCF_023272755	O2	99.91	1	
-GCF_023380065	O6	99.99	1	
-GCF_023520735	O11	99.97	1	
-GCF_023571485	O4	99.99	1	
-GCF_023612335	O6	99.99	1	
-GCF_023822305	O11	100.00	1	
-GCF_024089375	O2	99.91	1	
-GCF_024089395	O2	99.91	1	
-GCF_024126335	O2	99.91	1	
-GCF_024126355	O2	99.91	1	
-GCF_024266805	O6	99.97	1	
-GCF_024266915	O4	100.00	1	
-GCF_024266935	O4	100.00	2	One or more fragments overlapped
-GCF_024300845	O6	99.97	1	
-GCF_024397355	O1	99.99	1	
-GCF_024507915	O6	99.99	1	
-GCF_024507955	O6	99.97	1	
-GCF_024584495	O11	99.94	1	
-GCF_024652945	O4	100.00	1	
-GCF_024734795	O11	100.00	2	One or more fragments overlapped
-GCF_024734815	O6	99.99	1	
-GCF_024760445	O2	99.91	1	
-GCF_024803805	O4	100.00	1	
-GCF_024972855	O11	100.00	1	
-GCF_025021565	O2	99.91	1	
-GCF_025021745	O2	99.91	1	
-GCF_025079255	O4	100.00	1	
-GCF_025200845	O11	100.00	1	
-GCF_025244965	O2	99.91	1	
-GCF_025263585	O2	99.91	1	
-GCF_025263605	O2	99.91	1	
-GCF_025263705	O2	99.91	1	
-GCF_025398075	O6	99.97	1	
-GCF_025398095	O2	99.94	1	
-GCF_025398115	O6	99.97	1	
-GCF_025398135	O6	99.97	1	
-GCF_025398835	O6	99.97	1	
-GCF_025452135	O2	99.91	1	
-GCF_025723085	O12	99.91	1	
-GCF_025790885	O4	99.65	1	
-GCF_025908315	NT	0	0	No match exceeded percent identity and/or coverage thresholds
-GCF_025985465	O2	99.91	1	
-GCF_900069025	O3	100.00	2	One or more fragments overlapped
-GCF_900070375	O2	99.91	1	
-GCF_900095805	O10	100.00	1	
-GCF_900149285	O6	99.99	1	
-GCF_900185255	O1	99.99	1	
-GCF_900243355	O4	100.00	2	One or more fragments overlapped
-GCF_900497025	O12	99.95	4	Coverage calculated from multiple blast hits
-GCF_900618245	O1	99.94	1	
-GCF_900618255	O6	99.97	1	
-GCF_900618265	O6	99.97	1	
-GCF_900618275	O6	99.97	1	
-GCF_900618285	O11	100.00	1	
-GCF_900618305	O11	100.00	1	
-GCF_900618315	O6	99.97	1	
-GCF_900618325	O6	99.97	1	
-GCF_900618335	O6	99.97	1	
-GCF_900636735	O7	100.00	1	
-GCF_900636755	O6	99.97	1	
-GCF_900636975	O11	99.99	1	
-GCF_900637045	O3	99.98	1	
-GCF_902172305	O6	99.99	1	
-GCF_902703185	O4	100.00	2	One or more fragments overlapped
-GCF_902703195	O11	100.00	1	
-GCF_902703215	O6	100.00	2	One or more fragments overlapped
-GCF_904866275	O6	99.96	1	
-GCF_905071885	O11	100.00	1	
+sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+GCF_000006765	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000014625	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000017205	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000026645	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000168335	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000223945	O2	O2,wzyB	100.00,97.37	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000223965	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000226155	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000271365	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_000271985	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000284555	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000359505	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000414035	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000496455	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000496605	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000496645	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000504045	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000508765	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000510305	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000524595	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000763245	O2	O2,wzyB	100.00,97.37	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000816985	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000829255	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000829275	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000829885	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_000981825	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001045685	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001077475	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001293085	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001447845	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001457615	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001482325	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001515845	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_001515915	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516005	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516105	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516165	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516185	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_001516205	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516225	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516245	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516265	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516305	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516325	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516345	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001516385	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001518975	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001542795	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001542835	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001547955	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001548135	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001548335	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001594325	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001606045	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001618925	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001632245	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001679685	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001687285	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001721745	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001721765	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001721785	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001721805	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001721825	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001721845	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001722005	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001722025	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001722045	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001729505	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001750705	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001792835	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001792855	O2	O2,wzyB	100.00,97.37	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001792875	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001870265	O2	O2,wzyB	100.00,97.37	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001874465	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001879525	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_001900195	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_001900225	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_001900265	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_002075065	O9	O9	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002085605	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002085755	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002104595	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002104615	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002192475	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_002192495	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002205335	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002205355	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_002205375	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002208645	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002215345	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002223805	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002237405	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002237425	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002287725	O11	O11	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_002411865	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002442855	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002753655	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_002812825	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002812845	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002812865	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002812885	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002812905	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002812925	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002946935	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002968515	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002968585	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002968655	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002968695	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002968955	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_002997005	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_003028335	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003052005	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003060845	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003073615	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003073735	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003073795	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003073895	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_003193645	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003194245	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003204335	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003206535	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003288335	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003288435	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003319235	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003332705	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003369735	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003369755	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003369775	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003408495	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003411785	O11	O11	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_003429185	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003429205	O9	O9	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003433235	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003571505	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003571805	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003626935	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_003641125	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003716765	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_003798105	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003798125	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003798145	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003812165	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_003812885	O11	O11	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_003812905	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003813005	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003813025	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003950015	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003957825	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_003991465	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_004010895	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_004014755	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_004102665	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_004193735	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_004291075	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_004355125	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_004355145	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_005305005	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_006364735	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_006364795	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_006704595	O11	O11	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_006971785	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_007559065	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_007559085	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_007559105	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_007559125	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_007833895	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_008033725	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_008033745	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_008033765	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_008195485	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_008245185	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_008705235	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009497675	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009648875	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009662315	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009664165	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009676765	O10	O10	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_009676785	O10	O10	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_009676885	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009720405	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009720425	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009867055	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009905195	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_009911735	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_011045375	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_011106815	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_011466835	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_012276675	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_012935295	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_012971705	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013001005	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013201095	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013201115	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013255565	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013260445	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013305645	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013305765	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013305815	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013305845	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013341295	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343315	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343335	O9	O9	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343355	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343375	O9	O9	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343395	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343415	O6	O6	99.38	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+GCF_013343435	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343455	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343475	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343495	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343515	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343535	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343555	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013343575	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013347245	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013376775	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013393665	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013393685	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013393705	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013394455	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013394475	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_013395035	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013467585	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_013467605	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_014155905	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_014217315	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_014467035	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_014490645	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_014792125	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_014854655	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_014930935	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_015697465	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_015697605	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_015697645	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_015697665	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_015832055	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_015832075	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016064595	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016105505	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016105665	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016105885	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016107485	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016126955	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016134915	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016584725	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016743035	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_016743115	O11	O11	99.62	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+GCF_016745115	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016745135	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016745155	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016745175	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016745195	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016811975	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016864415	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_016925455	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_016925475	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_017378395	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_017378475	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_017900915	O13	O13	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018138045	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018138065	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018141565	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018141625	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018141645	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018279245	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_018279265	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_018279285	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_018279305	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018409365	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018448985	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_018598285	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019084125	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019364615	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019378915	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019379355	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019434075	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019434095	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019434135	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019434235	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019443665	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019466095	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019466145	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019710495	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019711215	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019720855	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019720875	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019738995	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857245	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857265	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857285	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_019857305	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857325	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857345	O4	O4	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_019857365	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857405	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857425	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_019857445	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857465	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857485	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857505	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857525	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857545	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857565	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857585	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857605	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857625	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019857645	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019915445	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_019915465	O11	O11	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_019915485	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_020771675	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_020771755	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_020978345	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_020990445	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_020990465	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_020990485	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166255	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166275	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166295	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166315	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166335	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166355	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021166375	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021184245	O5	O2	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_021184265	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021249245	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021266605	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021378395	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021398755	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021460035	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497285	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497305	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497325	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497345	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497365	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497385	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497405	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497425	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021497445	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513295	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513375	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513395	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513415	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513435	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513455	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513475	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513495	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513515	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513535	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513555	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513575	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513595	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513615	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513635	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_021513675	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022213165	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022424055	O11	O11	97.94	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+GCF_022453765	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022453825	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022559545	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022569855	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022569895	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022569915	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022569935	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022569975	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022569995	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_022570115	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022570235	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022570415	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_022570435	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022570455	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022570475	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022637915	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022638055	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022638175	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022649105	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022649245	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022670795	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022699485	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022699505	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022699525	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022700635	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810825	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810865	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810885	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810905	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810925	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810945	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810965	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022810985	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022811005	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022811025	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022811045	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022811065	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022811805	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022870025	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022870525	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022870545	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_022870565	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023066825	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023066845	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023066865	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023093935	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023093975	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023101265	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_023101285	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023101305	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023272755	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023380065	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023520735	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023571485	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023572735	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023612335	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_023822305	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024089395	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024126335	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024126355	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024266805	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024266915	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024266935	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_024300845	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024397355	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024507915	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024507955	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024584495	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024652945	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024734795	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_024734815	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024760445	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024803805	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_024972855	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025021565	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025021745	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025079255	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025200845	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025244965	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025263585	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025263605	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025263705	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025398075	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025398095	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025398115	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025398135	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025398835	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025452135	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025723085	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025790885	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_025908315	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_025985465	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026625905	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026636135	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026636195	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026727695	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026727715	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026727735	O1	O1	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_026727755	O13	O13	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_026870135	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027171385	O9	O9	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027359235	O2	O2,wzyB	100.00,100.00	1,2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	wzyB:Coverage based on 2 hits;wzyB:There were one or more overlapping hits
+GCF_027570415	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_027570435	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570455	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570475	O10	O10	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_027570495	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570515	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_027570535	O6	O6	99.65	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+GCF_027570555	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570575	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570595	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570615	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570635	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570655	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570675	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570715	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570735	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570755	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570775	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570795	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570815	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570835	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570855	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570875	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570895	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570915	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570935	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570955	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570975	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027570995	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571015	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571035	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571055	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_027571075	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571095	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571115	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571135	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571155	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571175	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571195	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571215	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_027571285	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571305	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571325	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571345	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027571365	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027594685	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027594965	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027594985	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027595005	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_027595025	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028366415	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028403965	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028403985	O12	O12	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_028404005	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028404025	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028404045	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028404065	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028404085	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028404105	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028595525	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028595865	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028622015	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028622895	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_028743595	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_028751785	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_028961985	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029201245	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029856995	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029857015	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029916825	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029958385	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_029961245	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961265	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961285	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_029961305	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961325	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_029961345	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961385	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961405	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961425	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961445	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961465	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961485	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961505	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961525	O10	O10	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_029961545	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961565	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961585	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_029961605	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961625	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029961645	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_029961665	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029962145	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_029962165	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029962185	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_029962205	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_030028275	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030034615	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030034635	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030034655	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030034675	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030121855	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_030121875	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030121895	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030121915	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_030121935	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030121955	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030121975	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030121995	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122015	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122035	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122055	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122075	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122095	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122115	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122135	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030122155	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030183355	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030183855	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030185815	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030185915	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030186885	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030253475	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030264075	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030369815	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030369835	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030369855	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030388285	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030413195	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030436095	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030444495	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030444595	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030444635	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030444655	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030444675	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030489625	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030489645	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030490735	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030505595	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030563585	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030563765	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030564045	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030758435	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030866885	O6	O6	100.00	3	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 3 hits;There were one or more overlapping hits
+GCF_030866905	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030866925	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030908425	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_030908445	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031211485	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031212645	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031218375	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_031219395	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031220265	O13	O13	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031221745	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031222225	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031223175	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_031224255	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031224875	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031326305	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031326325	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_031851725	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032231025	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032231045	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032231085	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032231105	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_032252935	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032252955	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032252975	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032292255	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032463705	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032598925	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032681185	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032696765	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032699645	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032761935	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032811685	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032843885	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_032847385	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_032941915	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033108345	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033216995	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033217895	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033219075	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033219955	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033221155	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033222185	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033223225	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_033224565	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033225445	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033226745	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033227745	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033228545	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_033229485	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033230305	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033232085	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033335935	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033374175	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033375015	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033375815	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033392255	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033393195	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033394235	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033395015	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033615795	O1	O1	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_033807835	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_033971305	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_034190815	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_034438375	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_034480705	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_034480885	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035197065	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035197965	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035205985	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_035557195	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035621175	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_035621255	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035621395	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035666215	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_035984435	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232065	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232085	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232105	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232125	O2	O2,wzyB	100.00,100.00	2,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	O2:Coverage based on 2 hits;O2:There were one or more overlapping hits
+GCF_036232145	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232165	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232185	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232205	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232225	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232245	O9	O9	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232265	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232285	-				pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	A type could not be determined
+GCF_036232305	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232325	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232345	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232365	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232385	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232405	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232425	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232455	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232495	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232525	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232565	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232585	O1	O1	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_036232605	O1	O1	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_036232625	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232645	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232665	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232685	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232705	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232725	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232745	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232765	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232785	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232805	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232825	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232845	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232865	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232885	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232905	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232925	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036232945	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233095	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233115	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233135	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233155	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233175	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233195	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233215	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233235	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233255	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233275	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233295	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233315	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233335	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_036233355	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233375	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233395	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233415	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233435	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233455	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233475	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233495	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233515	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233535	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233555	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233575	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233595	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233615	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233635	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233655	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233675	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233695	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233715	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233735	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036233755	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036234315	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036236015	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036236975	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036236995	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036237015	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036237035	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036237055	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036237075	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036237095	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036237115	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036326305	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036417705	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036417805	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036417915	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036417995	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036418055	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036418125	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036418145	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036418185	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_036418275	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036418295	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_036542105	O12	O12	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_036688165	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036776515	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_036835625	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037267025	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037285345	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287405	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287425	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287465	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287505	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287535	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287545	O2	O2,wzyB	100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037287585	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037482125	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_037890725	O11	O11	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_037914935	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038069315	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_038069335	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038396595	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038396855	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038396885	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038397815	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038418245	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038420425	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431885	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431895	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431905	O12	O12	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431915	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431925	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431935	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038431945	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038432515	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038433795	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_038435155	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039512425	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039555165	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039622755	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039622765	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039622815	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039622885	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039702325	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039830125	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039904215	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039908025	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039908075	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039919425	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039921825	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_039924275	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040008295	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040084805	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040268335	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040429595	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040429605	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040560445	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040562075	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040571335	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040580825	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040581105	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_040581215	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_040735975	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900069025	O3	O3	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_900070375	O5	O2	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900095805	O10	O10	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900149285	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900185255	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900497025	O12	O12	100.00	4	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 4 hits;There were one or more overlapping hits
+GCF_900618245	O1	O1	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618255	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618265	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618275	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618285	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618305	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618315	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618325	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900618335	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900636735	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900636755	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900636975	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_900637045	O3	O3	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_902172305	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_902703185	O4	O4	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_902703195	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_902703215	O6	O6	100.00	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits;There were one or more overlapping hits
+GCF_904866275	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_905071885	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_951691365	O11	O11	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_951802375	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+GCF_951805275	O4	O4	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	

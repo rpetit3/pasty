@@ -1,0 +1,57 @@
+%YAML 1.2
+---
+# metadata provides information about the schema
+metadata:
+  id: "pasty"                                                     # id of the schema
+  name: "P. aeruginosa serogrouping"                              # name of the schema
+  description: "Serogrouping of Pseudomonas aeruginosa isolates"  # description of the schema
+  version: "2.0.0"                                                # version of the schema
+  curators:                                                       # A list of curators of the schema
+    - "Robert A. Petit III"
+
+# engine provides information about the tool and parameters used
+engine:
+  tool: blastn # The tool used to generate the data
+
+# targets provides a list of sequence targets (primers, genes, proteins, etc...)
+targets:
+  - "O1"
+  - "O2"
+  - "O3"
+  - "O4"
+  - "O6"
+  - "O7"
+  - "O9"
+  - "O10"
+  - "O11"
+  - "O12"
+  - "O13"
+  - "wzyB"
+
+# types includes the final typing designations based on targets and aliases 
+types:
+  - name: "O1"                  # name of the profile
+    targets: ["O1"]             # list of targets that are part of the profile
+  - name: "O2"
+    targets: ["O2", "wzyB"]
+  - name: "O3"
+    targets: ["O3"]
+  - name: "O4"
+    targets: ["O4"]
+  - name: "O5"
+    targets: ["O2"]
+    excludes: ["wzyB"]
+  - name: "O6"
+    targets: ["O6"]
+  - name: "O7"
+    targets: ["O7"]
+  - name: "O9"
+    targets: ["O9"]
+  - name: "O10"
+    targets: ["O10"]
+  - name: "O11"
+    targets: ["O11"]
+  - name: "O12"
+    targets: ["O12"]
+  - name: "O13"
+    targets: ["O13"]

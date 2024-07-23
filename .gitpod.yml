@@ -6,7 +6,7 @@ tasks:
       pip install graphviz
       . /opt/conda/etc/profile.d/conda.sh
       conda activate base
-      mamba create -n pasty-dev -y -q -c conda-forge -c bioconda pasty
+      mamba create -n pasty-dev -y -q -c conda-forge -c bioconda camlhmp
       conda activate pasty-dev
       git checkout main
 vscode:

@@ -1,0 +1,2 @@
+sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+O6-GCF_001444755	O6	O6	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	

@@ -1,0 +1,13 @@
+sample	type	status	targets	missing	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+O12-GCF_001444975	O1	False		O1	1.79	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O2	False		O2,wzyB	0.00,0.00	0,0	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O3	False		O3	1.42	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O4	False		O4	1.81	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O5	False		O2	0.00	0	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O6	False		O6	1.85	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O7	False		O7	1.46	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O9	False		O9	1.93	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O10	False		O10	1.62	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O11	False		O11	2.03	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O12	True	O12		100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O12-GCF_001444975	O13	False		O13	2.02	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
