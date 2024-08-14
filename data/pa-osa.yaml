@@ -5,14 +5,14 @@ metadata:
   id: "pasty"                                                     # id of the schema
   name: "P. aeruginosa serogrouping"                              # name of the schema
   description: "Serogrouping of Pseudomonas aeruginosa isolates"  # description of the schema
-  version: "2.0.0"                                                # version of the schema
+  version: "2.0.1"                                                # version of the schema
   curators:                                                       # A list of curators of the schema
     - "Robert A. Petit III"
 
 # engine provides information about the tool and parameters used
 engine:
+  type: blast  # The type of tool used to generate the data
   tool: blastn # The tool used to generate the data
-  type: blast
 
 # targets provides a list of sequence targets (primers, genes, proteins, etc...)
 targets:

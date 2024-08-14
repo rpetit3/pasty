@@ -27,7 +27,7 @@ jobs:
 
       - name: Setup pasty Environment
         run: |
-          conda install -y -c conda-forge -c bioconda 'camlhmp>=0.2.2'
+          conda install -y -c conda-forge -c bioconda 'camlhmp>=0.3.1'
 
       - name: Environment Information
         run: uname -a && env
