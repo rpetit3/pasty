@@ -26,6 +26,8 @@ targets:
   - "O11"
   - "O12"
   - "O13"
+  - "O15"
+  - "O17"
   - "wzyB"
 
 # types includes the final typing designations based on targets and aliases 
@@ -55,3 +57,7 @@ types:
     targets: ["O12"]
   - name: "O13"
     targets: ["O13"]
+  - name: "O15"
+    targets: ["O15"]
+  - name: "O17"
+    targets: ["O17"]
