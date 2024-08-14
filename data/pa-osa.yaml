@@ -12,6 +12,7 @@ metadata:
 # engine provides information about the tool and parameters used
 engine:
   tool: blastn # The tool used to generate the data
+  type: blast
 
 # targets provides a list of sequence targets (primers, genes, proteins, etc...)
 targets:

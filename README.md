@@ -38,9 +38,9 @@ pasty --help
 ## Usage
 
 ```{bash}
- Usage: camlhmp-blast-region [OPTIONS]
+ Usage: camlhmp-blast-regions [OPTIONS]
 
- 🐪 camlhmp-blast-region 🐪 - Classify assemblies with a camlhmp schema using BLAST against
+ 🐪 camlhmp-blast-regions 🐪 - Classify assemblies with a camlhmp schema using BLAST against
  larger genomic regions
 
 ╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮

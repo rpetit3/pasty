@@ -3,5 +3,5 @@ pasty_dir=$(dirname $0)
 
 CAML_YAML="${pasty_dir}/../share/pasty/pa-osa.yaml" \
 CAML_TARGETS="${pasty_dir}/../share/pasty/pa-osa.fasta" \
-    camlhmp-blast-region \
+    camlhmp-blast-regions \
     "${@:1}"
