@@ -1,2 +1,2 @@
 sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
-O7-GCF_001444745	O7	O7	100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
+O7-GCF_001444745	O7	O7	100.00	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	

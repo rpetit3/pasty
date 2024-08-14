@@ -1,13 +1,15 @@
 sample	type	status	targets	missing	coverage	hits	schema	schema_version	camlhmp_version	params	comment
-O9-GCF_001444815	O1	False		O1	34.46	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O9-GCF_001444815	O2	False		O2,wzyB	8.47,0.00	1,0	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O9-GCF_001444815	O3	False		O3	11.18	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O9-GCF_001444815	O4	False		O4	14.37	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O9-GCF_001444815	O5	False		O2	8.47	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O9-GCF_001444815	O6	False		O6	14.07	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O9-GCF_001444815	O7	False		O7	11.52	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O9-GCF_001444815	O9	True	O9		100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O9-GCF_001444815	O10	False		O10	12.49	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O9-GCF_001444815	O11	False		O11	15.85	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O9-GCF_001444815	O12	False		O12	1.28	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O9-GCF_001444815	O13	False		O13	15.39	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O1	False		O1	34.46	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O9-GCF_001444815	O2	False		O2,wzyB	8.47,0.00	1,0	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O9-GCF_001444815	O3	False		O3	11.18	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O4	False		O4	14.37	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O5	False		O2	8.47	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O9-GCF_001444815	O6	False		O6	14.07	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O7	False		O7	11.52	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O9	True	O9		100.00	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O9-GCF_001444815	O10	False		O10	12.49	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O11	False		O11	15.85	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O12	False		O12	1.28	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O9-GCF_001444815	O13	False		O13	15.39	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O9-GCF_001444815	O15	False		O15	0.00	0	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O9-GCF_001444815	O17	False		O17	0.00	0	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	

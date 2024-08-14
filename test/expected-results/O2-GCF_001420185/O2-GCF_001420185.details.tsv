@@ -1,13 +1,15 @@
 sample	type	status	targets	missing	coverage	hits	schema	schema_version	camlhmp_version	params	comment
-O2-GCF_001420185	O1	False		O1	12.49	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O2-GCF_001420185	O2	True	O2,wzyB		100.00,100.00	1,1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O2-GCF_001420185	O3	False		O3	1.43	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O2-GCF_001420185	O4	False		O4	13.86	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O2-GCF_001420185	O5	False	O2		100.00	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Excluded target wzyB found, failing type O5
-O2-GCF_001420185	O6	False		O6	14.75	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O2-GCF_001420185	O7	False		O7	11.83	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O2-GCF_001420185	O9	False		O9	11.42	1	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O2-GCF_001420185	O10	False		O10	12.96	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O2-GCF_001420185	O11	False		O11	15.86	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
-O2-GCF_001420185	O12	False		O12	0.00	0	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	
-O2-GCF_001420185	O13	False		O13	16.21	2	pasty	1.0.0	0.2.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O1	False		O1	12.49	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O2	True	O2,wzyB		100.00,100.00	1,1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O2-GCF_001420185	O3	False		O3	1.43	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O2-GCF_001420185	O4	False		O4	13.86	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O5	False	O2		100.00	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Excluded target wzyB found, failing type O5
+O2-GCF_001420185	O6	False		O6	14.75	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O7	False		O7	11.83	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O9	False		O9	11.42	1	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O2-GCF_001420185	O10	False		O10	12.96	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O11	False		O11	15.86	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O12	False		O12	0.00	0	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O2-GCF_001420185	O13	False		O13	16.21	2	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 2 hits
+O2-GCF_001420185	O15	False		O15	0.00	0	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
+O2-GCF_001420185	O17	False		O17	0.00	0	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	
