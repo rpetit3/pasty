@@ -5,7 +5,7 @@ metadata:
   id: "pasty"                                                     # id of the schema
   name: "P. aeruginosa serogrouping"                              # name of the schema
   description: "Serogrouping of Pseudomonas aeruginosa isolates"  # description of the schema
-  version: "2.0.1"                                                # version of the schema
+  version: "2.0.2"                                                # version of the schema
   curators:                                                       # A list of curators of the schema
     - "Robert A. Petit III"
 
