@@ -52,3 +52,5 @@ serogroups. Below is a table of each serogroup and the corresponding reference g
 | O11       | [GCF_001444955.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001444955.1/)|
 | O12       | [GCF_001444975.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001444975.1/)|
 | O13       | [GCF_001444995.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001444995.1/)|
+| O15       | [GCF_001444865.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_001444865.1/)|
+| O17       | [GCA_001444915.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_001444915.1/)|
