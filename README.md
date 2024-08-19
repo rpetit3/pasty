@@ -10,8 +10,7 @@ _Pseudomonas aeruginosa_ serotyper (PAst) is available as a web-service from
 works great, but is not the most efficient for 100s of genomes. I also looked into the
 original implementation available at [PAst](https://github.com/Sandramses/PAst).
 I tried my best to start tweaking it to meet my needs, but unfortunately my Perl skills
-have dulled over the years! And it ended up being easier and quicker to just rewrite it
-in Python.
+have dulled over the years! And it ended up being easier and quicker to just rewrite it.
 
 ## Introduction
 

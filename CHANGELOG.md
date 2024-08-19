@@ -1,10 +1,13 @@
 # Releases
 
+## v2.0.2 rpetit3/pasty "19BR+1" - 2024/08/14
+
+- no changes, fixing upstream bioconda install
+
 ## v2.0.1 rpetit3/pasty "19BR" - 2024/08/14
 
 - updated for latest changes in camlhmp
 - updated GHA workflow
-
 
 ## v2.0.0 rpetit3/pasty "PACS2" - 2024/07/22
 
