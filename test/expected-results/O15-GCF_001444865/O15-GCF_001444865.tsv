@@ -1,0 +1,2 @@
+sample	type	targets	coverage	hits	schema	schema_version	camlhmp_version	params	comment
+O15-GCF_001444865	O15	O15	100.00	7	pasty	2.0.0	0.3.1	min-coverage=95;min-pident=95	Coverage based on 7 hits;There were one or more overlapping hits
