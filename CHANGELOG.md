@@ -1,5 +1,9 @@
 # Releases
 
+## v2.1.0 rpetit3/pasty "LESB58" - 2024/08/19
+
+- add serogroups O15 and O17 https://github.com/rpetit3/pasty/pull/5 @StefaanVerwimp
+
 ## v2.0.2 rpetit3/pasty "19BR+1" - 2024/08/14
 
 - no changes, fixing upstream bioconda install
