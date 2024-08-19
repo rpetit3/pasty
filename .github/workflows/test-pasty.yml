@@ -88,6 +88,12 @@ jobs:
           bin/pasty --input test/data/O13-GCF_001444995.fna.gz --prefix O13-GCF_001444995
           cat O13-GCF_001444995.tsv
           cat O13-GCF_001444995.details.tsv
+          bin/pasty --input test/data/O15-GCF_001444865.fna.gz --prefix O15-GCF_001444865
+          cat O15-GCF_001444865.tsv
+          cat O15-GCF_001444865.details.tsv
+          bin/pasty --input test/data/O17-GCF_001444915.fna.gz --prefix O17-GCF_001444915
+          cat O17-GCF_001444915.tsv
+          cat O17-GCF_001444915.details.tsv
           echo "NT-GCF_000292685"
           bin/pasty --input test/data/NT-GCF_000292685.fna.gz --prefix NT-GCF_000292685
           cat NT-GCF_000292685.tsv
