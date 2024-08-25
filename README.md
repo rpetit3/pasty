@@ -52,8 +52,8 @@ pasty --help
 │                                 [required]                                                    │
 │    --outdir        -o  PATH     Directory to write output [default: ./]                       │
 │    --prefix        -p  TEXT     Prefix to use for output files [default: camlhmp]             │
-│    --min-pident        INTEGER  Minimum percent identity to count a hit [default: 95]         │
-│    --min-coverage      INTEGER  Minimum percent coverage to count a hit [default: 95]         │
+│    --min-pident        INTEGER  Minimum percent identity to count a hit [default: 80]         │
+│    --min-coverage      INTEGER  Minimum percent coverage to count a hit [default: 80]         │
 │    --force                      Overwrite existing reports                                    │
 │    --verbose                    Increase the verbosity of output                              │
 │    --silent                     Only critical errors will be printed                          │
@@ -84,10 +84,14 @@ The directory to save result files. If the directory does not exist is will be c
 
 ### --min-pident
 
+__*Note: This should be automatically set for you!*__
+
 The minimum percent identity for a blast hit to be considered for serogrouping. The is compared
 against the `pident` column of the blast output.
 
 ### --min-coverage
+
+__*Note: This should be automatically set for you!*__
 
 The minimum coverage of a O-antigen to be considered for serogrouping. This looks at the percent
 of the O-antigen that was aligned to. This calculation does include mismatches and gaps,

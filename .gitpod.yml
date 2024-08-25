@@ -1,4 +1,4 @@
-image: nfcore/gitpod:latest
+image: condaforge/miniforge3:24.3.0-0
 
 tasks:
   - name: Initialize
@@ -6,7 +6,7 @@ tasks:
       pip install graphviz
       . /opt/conda/etc/profile.d/conda.sh
       conda activate base
-      mamba create -n pasty-dev -y -q -c conda-forge -c bioconda camlhmp
+      conda create -n pasty-dev -y -q -c conda-forge -c bioconda camlhmp
       conda activate pasty-dev
       git checkout main
 vscode:
