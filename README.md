@@ -52,8 +52,8 @@ pasty --help
 │                                 [required]                                                    │
 │    --outdir        -o  PATH     Directory to write output [default: ./]                       │
 │    --prefix        -p  TEXT     Prefix to use for output files [default: camlhmp]             │
-│    --min-pident        INTEGER  Minimum percent identity to count a hit [default: 80]         │
-│    --min-coverage      INTEGER  Minimum percent coverage to count a hit [default: 80]         │
+│    --min-pident        INTEGER  Minimum percent identity to count a hit [default: 90]         │
+│    --min-coverage      INTEGER  Minimum percent coverage to count a hit [default: 90]         │
 │    --force                      Overwrite existing reports                                    │
 │    --verbose                    Increase the verbosity of output                              │
 │    --silent                     Only critical errors will be printed                          │

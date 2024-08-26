@@ -1,5 +1,9 @@
 # Releases
 
+## v2.2.1 rpetit3/pasty "HB13" - 2024/08/25
+
+- adjust default parameters for `--min-pident` and `--min-coverage` to 90 each
+
 ## v2.2.0 rpetit3/pasty "JBPA" - 2024/08/25
 
 - add default parameters for `--min-pident` and `--min-coverage` in the YAML
